@@ -8,21 +8,7 @@ const blogPosts = [
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
     link: "/blog/crystal-healing"
   },
-  {
-    id: 2,
-    title: "Basics of Ayurveda",
-    excerpt: "Learn the ancient art of Ayurveda and how it supports holistic wellbeing.",
-    image: "https://images.unsplash.com/photo-1546525848-3ce03ca516f6?auto=format&fit=crop&w=800&q=80",
-    link: "/blog/ayurveda-basics"
-  },
-  {
-    id: 3,
-    title: "Meditation for Beginners",
-    excerpt: "Step-by-step guide on meditation techniques to calm your mind and body.",
-    image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80",
-    link: "/blog/meditation-beginners"
-  },
-  // Add more blog posts as needed
+  
 ];
 
 const AllBlog = () => {

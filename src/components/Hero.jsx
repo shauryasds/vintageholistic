@@ -4,7 +4,7 @@ import BookAppointement from './BookAppointement';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const navigation = ["Home", "Services", "Blogs", "About Us", "Contact Us"];
+  const navigation = ["Home", "Services", "Blogs", "About", "Contact"];
 
   return (
     <div
@@ -22,14 +22,15 @@ const Hero = () => {
         {/* Top Bar */}
         <div className="flex justify-between items-center">
           <div className="text-xs">
-            We are open. Learn more about our <span className="underline">COVID-19 safety protocols.</span>
+            We are open. Learn more about our work   <a
+  href="https://calendly.com/shuklashauryadeep589/30min" className=" text-yellow-500 underline">Directly.</a>
           </div>
           <motion.div  
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
          className="flex items-center space-x-4 text-sm" >
-            <span>📞 +123 456 789</span>
+            <span>📞 +91 7338631681</span>
             <BookAppointement />
         </motion.div>
           </div>
