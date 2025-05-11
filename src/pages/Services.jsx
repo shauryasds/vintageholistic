@@ -1,69 +1,92 @@
 import React from 'react';
-// import { FaLeaf, FaSpa, FaStar, FaGem } from 'react-icons/fa';
-import Card from '../components/Card';
+import { motion } from 'framer-motion';
+
+const whatsappLink = "https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20this%20course/service";
 
 const services = {
   courses: [
-    { title: "Usui Reiki Level 1", logo: <FaLeaf />, link: "/services/reiki-level-1" },
-    { title: "Usui Reiki Level 2", logo: <FaLeaf />, link: "/services/reiki-level-2" },
-    { title: "Usui Reiki Level 3A", logo: <FaLeaf />, link: "/services/reiki-level-3a" },
-    { title: "Usui Reiki Level 3B", logo: <FaLeaf />, link: "/services/reiki-level-3b" },
-    { title: "Usui Reiki Grand Mastership Level", logo: <FaStar />, link: "/services/reiki-mastership" },
-    { title: "Karuna Reiki", logo: "🌿", link: "/services/karuna-reiki" },
-    { title: "Crystal Healing", logo: <FaGem />, link: "/services/crystal-healing" },
-    { title: "Egyptian Card Reading", logo: "🎴", link: "/services/egyptian-card-reading" },
-    { title: "Rider Waite Tarot Card Reading", logo: "🃏", link: "/services/tarot-card-reading" },
-    { title: "Angel Card Reading", logo: "👼", link: "/services/angel-card-reading" },
-    { title: "Basic and Advance course in Meditation", logo: <FaSpa />, link: "/services/meditation" },
-    { title: "Angel Therapy Course", logo: "👼", link: "/services/angel-therapy" },
-    { title: "Aura and Chakra Healing", logo: <FaSpa />, link: "/services/aura-chakra" },
-    { title: "Basics of Ayurveda", logo: "🌿", link: "/services/ayurveda-basics" },
-    { title: "Beauty Course in Ayurveda", logo: "🌿", link: "/services/ayurveda-beauty" },
-    { title: "Basic Course in FengShui", logo: "🧭", link: "/services/fengshui" },
+    { title: "Usui Reiki Level 1", link: "/services/reki" },
+    { title: "Usui Reiki Level 2", link: "/services/reki" },
+    { title: "Usui Reiki Level 3A", link: "/services/reki" },
+    { title: "Usui Reiki Level 3B", link: "/services/reki" },
+    { title: "Usui Reiki Grand Mastership Level", link: "/services/reki" }, // typo corrected
+    { title: "Karuna Reiki", link: "/services/reki" },
+    { title: "Crystal Healing", link: "/services/crystal-healing" },
+    { title: "Egyptian Card Reading", link: "/services/card-reading" },
+    { title: "Rider Waite Tarot Card Reading", link: "/services/card-reading" },
+    { title: "Angel Card Reading", link: "/services/card-reading" },
+    { title: "Basic and Advance course in Meditation", link: whatsappLink },
+    { title: "Angel Therapy Course", link: whatsappLink },
+    { title: "Aura and Chakra Healing", link: whatsappLink },
+    { title: "Basics of Ayurveda", link: "/services/ayurveda" },
+    { title: "Beauty Course in Ayurveda", link: "/services/ayurveda" },
+    { title: "Basic Course in FengShui", link: "/services/fengshui" },
   ],
   therapies: [
-    { title: "Ayurveda Consultation", logo: "🌿", link: "/therapies/ayurveda-consultation" },
-    { title: "Tarot, Egyptian and Angel Card Reading", logo: "🃏", link: "/therapies/card-reading" },
-    { title: "Aura Reading Session", logo: <FaSpa />, link: "/therapies/aura-reading" },
-    { title: "Feng Shui Consultation", logo: "🧭", link: "/therapies/fengshui-consultation" },
-    { title: "Past Life Regression Session", logo: "⏳", link: "/therapies/past-life-regression" },
-    { title: "Life between Lives Session", logo: "🌟", link: "/therapies/life-between-lives" },
+    { title: "Ayurveda Consultation", link: "/services/ayurveda" },
+    { title: "Tarot, Egyptian and Angel Card Reading", link: "/services/card-reading" },
+    { title: "Aura Reading Session", link: whatsappLink },
+    { title: "Feng Shui Consultation", link: "/services/fengshui" },
+    { title: "Past Life Regression Session", link: "/services/past-life-regression" },
+    { title: "Life between Lives Session", link: whatsappLink },
   ],
+};
+
+
+const Card = ({ title, infoLink }) => {
+  return (
+    <motion.div
+      className="bg-white backdrop-blur-lg shadow-lg rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-transparent"
+      whileHover={{ y: -5, scale: 1.02 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, y: 20 }}
+      transition={{ duration: 0.5 }}
+    >
+      <h3 className="text-lg font-semibold text-gray-800 mb-4">{title}</h3>
+      <a
+        href={infoLink}
+        className="inline-block text-blue-600 hover:text-blue-800 font-medium transition-colors duration-300"
+      >
+        Learn More →
+      </a>
+    </motion.div>
+  );
 };
 
 const ServicePage = () => {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8">
-      <h1 className="text-5xl font-serif font-extrabold text-center text-gray-900 mb-12 flex items-center justify-center space-x-3">
-        <span className="text-orange-600 text-6xl">🌿</span>
-        <span>Sanskruti Holistic Center</span>
-        <span className="text-orange-600 text-6xl">🌿</span>
-      </h1>
+    <div className="min-h-screen bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-5xl font-serif font-extrabold text-center text-gray-900 mb-16">
+          <span className="text-emerald-600 text-6xl">🌿</span>
+          <span className="mx-4">Sanskruti Holistic Center</span>
+          <span className="text-emerald-600 text-6xl">🌿</span>
+        </h1>
 
-      <section className="w-full max-w-6xl mb-16">
-        <h2 className="text-4xl font-serif font-bold text-center mb-10 text-gray-900">
-          Courses
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {services.courses.map(({ title, logo, link }, idx) => (
-            <Card key={idx} logo={logo} title={title} infoLink={link} />
-          ))}
-        </div>
-      </section>
+        <section className="mb-20">
+          <h2 className="text-4xl font-serif font-bold text-center text-gray-900 mb-12">
+            Courses
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {services.courses.map(({ title, link }, idx) => (
+              <Card key={idx} title={title} infoLink={link} />
+            ))}
+          </div>
+        </section>
 
-      <section className="w-full max-w-6xl">
-        <h2 className="text-4xl font-serif font-bold text-center mb-10 text-gray-900">
-          Therapies & Consultation
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {services.therapies.map(({ title, logo, link }, idx) => (
-            <Card key={idx} logo={logo} title={title} infoLink={link} />
-          ))}
-        </div>
-      </section>
+        <section>
+          <h2 className="text-4xl font-serif font-bold text-center text-gray-900 mb-12">
+            Therapies & Consultation
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {services.therapies.map(({ title, link }, idx) => (
+              <Card key={idx} title={title} infoLink={link} />
+            ))}
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
 
 export default ServicePage;
-

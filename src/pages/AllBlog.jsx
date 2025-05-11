@@ -27,7 +27,7 @@ const blogPosts = [
 
 const AllBlog = () => {
   return (
-    <div className="min-h-screen bg-pink-50 py-12 mt-24 px-6 md:px-12">
+    <div className="min-h-screen bg-pink-50 py-12 mt-20 px-6 md:px-12">
       <h1 className="text-center text-4xl md:text-5xl font-extrabold font-serif mb-12 text-pink-700">
         Our Blog
       </h1>

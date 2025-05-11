@@ -4,7 +4,7 @@ import BookAppointement from './BookAppointement';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const navigation = ["home", "pages", "blog", "shop", "landing"];
+  const navigation = ["Home", "Services", "Blogs", "About Us", "Contact Us"];
 
   return (
     <div

@@ -43,7 +43,7 @@ function Navbar() {
           {/* Book Appointment Button */}
           <div>
             <a
-              href="/book-appointment"
+  href="https://calendly.com/shuklashauryadeep589/30min"
               className="inline-block bg-orange-600 text-white font-semibold px-7 py-3 rounded-lg tracking-wide hover:bg-gray-800 transition-colors duration-300"
             >
               Book Appointment
