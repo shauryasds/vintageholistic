@@ -1,0 +1,72 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+
+const Footer = () => {
+  return (
+    <motion.footer
+      className="bg-white text-black py-10 px-6 shadow-lg"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-sm">
+
+        {/* Brand & Contact */}
+        <div className=''>
+          <h2 className="text-4xl font-bold mb-2">Sanskruti Holistic Center</h2>
+          <p className="mb-1 text-md">📞 +91-7338631681</p>
+          <p className="mb-1 text-md">📞 +91-9886332684</p>
+          <p className="mb-1 text-md">Bangalore, India</p>
+        </div>
+
+        {/* Timings */}
+        <div>
+          <h3 className="font-semibold mb-2">Opening Hours</h3>
+          <ul className="space-y-1">
+            <li>Monday –: 9 AM – 7 PM</li>
+            <li>Tuesday –: 9 AM – 7 PM</li>
+            <li>Wednesday –: 9 AM – 7 PM</li>
+            <li>Thursday –: 9 AM – 7 PM</li>
+            <li>Friday –: 9 AM – 7 PM</li>
+            <li>Saturday: 10 AM – 6 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+
+        {/* Links & Button */}
+        <div>
+          <h3 className="font-semibold mb-2">Quick Links</h3>
+          <ul className="space-y-2">
+            {["Home", "Services", "About", "Contact"].map((item, index) => (
+              <motion.li
+                key={index}
+                whileHover={{ x: 6 }}
+                className="hover:text-blue-900 transition border-b border-orange-200 pb-1"
+              >
+                <a href={`/${item.toLowerCase()}`}>{item}</a>
+              </motion.li>
+            ))}
+            <li className="pt-4">
+              <motion.a
+                whileHover={{ scale: 1.03 }}
+                href="https://www.google.com/search?q=Sai+Sanskruti+Holistic+Center"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white shadow-lg outline-double text-black px-4 py-2 rounded-md hover:bg-orange-700 hover:text-white transition"
+              >
+                Find us on Google
+              </motion.a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="text-center text-xs text-orange-800 mt-10 border-t border-orange-200 pt-4">
+        © {new Date().getFullYear()} Developed by- shaurya deep shukla / web chily 
+      </div>
+      
+    </motion.footer>
+  );
+};
+
+export default Footer;
