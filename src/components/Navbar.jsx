@@ -45,7 +45,6 @@ function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="text-3xl font-serif font-extrabold tracking-wider">🌿</div>
             <span className="text-2xl font-serif font-extrabold tracking-widest">Sanskruti</span>
           </Link>
 

@@ -33,12 +33,11 @@ const AllBlog = () => {
             <div className="p-6 flex flex-col flex-grow">
               <h2 className="text-2xl font-semibold mb-2 text-pink-800">{title}</h2>
               <p className="text-gray-700 flex-grow">{excerpt}</p>
-              <a
-                href={link}
+              <Link to={link}
                 className="mt-4 inline-block text-pink-600 font-semibold hover:underline self-start"
               >
                 Read More &rarr;
-              </a>
+              </Link>
             </div>
           </article>
         ))}
