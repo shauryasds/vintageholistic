@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import { Link } from 'react-router-dom';
 const whatsappLink = "https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20this%20course/service";
 
 const services = {
@@ -43,12 +44,12 @@ const Card = ({ title, infoLink }) => {
       transition={{ duration: 0.5 }}
     >
       <h3 className="text-lg font-semibold text-gray-800 mb-4">{title}</h3>
-      <a
-        href={infoLink}
+      <Link
+        to={infoLink}
         className="inline-block text-blue-600 hover:text-blue-800 font-medium transition-colors duration-300"
       >
         Learn More →
-      </a>
+      </Link>
     </motion.div>
   );
 };
