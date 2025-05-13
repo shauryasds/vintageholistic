@@ -77,7 +77,7 @@ const CrystalHealing = () => {
                   <div className="flex flex-col space-y-2">
                     <h4 className="text-lg font-medium text-gray-900">Crystal Set (Optional):</h4>
                     <p className="text-gray-700">₹5,000 includes:</p>
-                    <ul className="list-disc list-inside ml-4 mt-2 space-y-2 text-gray-700">
+                    <ul className="list-disc list-inside  ml-4 mt-2 space-y-2 text-gray-700">
                       <li>49 tumbled crystals</li>
                       <li>2 clear quartz crystal towers</li>
                       <li>1 smoky quartz crystal tower</li>

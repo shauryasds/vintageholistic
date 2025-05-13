@@ -25,18 +25,18 @@ function Navbar() {
 
   const navLinks = (
     <>
-      <Link to="/" className="hover:text-gray-600 transition-colors duration-300" onClick={()=>setMenuOpen((open)=>!open)}>Home</Link>
-      <Link to="/services" className="hover:text-gray-600 transition-colors duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Services</Link>
-      <Link to="/blogs" className="hover:text-gray-600 transition-colors duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Blog</Link>
-      <Link to="/about" className="hover:text-gray-600 transition-colors duration-300"onClick={()=>setMenuOpen((open)=>!open)}>About</Link>
-      <Link to="/contact" className="hover:text-gray-600 transition-colors duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Contact</Link>
+      <Link to="/" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={()=>setMenuOpen((open)=>!open)}>Home</Link>
+      <Link to="/services" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Services</Link>
+      <Link to="/about" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300"onClick={()=>setMenuOpen((open)=>!open)}>About</Link>
+      <Link to="/contact" className="hover:text-pink-600 hover:scale-105 transition-colors duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Contact</Link>
+      <Link to="/blogs" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Blog</Link>
     </>
   );
 
   return (
     <motion.nav
       initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: visible ? 1 : 0, y: visible ? 0 : -20 }}
+      animate={{ opacity: visible ? 1 : 0, y: visible ? 0 : -200 }}
       transition={{ duration: 0.4 }}
       className="fixed top-0 left-0 w-full bg-white text-black shadow-md z-50"
     >

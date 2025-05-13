@@ -37,7 +37,7 @@ const services = {
 const Card = ({ title, infoLink }) => {
   return (
     <motion.div
-      className="bg-white backdrop-blur-lg shadow-lg rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-transparent"
+      className="bg-white hover:cursor-pointer hover:bg-gradient-to-t hover:from-pink-50 hover:bg-pink-100  backdrop-blur-lg shadow-lg rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-transparent"
       whileHover={{ y: -5, scale: 1.02 }}
       whileInView={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: 20 }}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 const Footer = () => {
   return (
     <motion.footer
@@ -14,9 +14,26 @@ const Footer = () => {
         {/* Brand & Contact */}
         <div className=''>
           <h2 className="text-4xl font-bold mb-2">Sanskruti Holistic Center</h2>
-          <p className="mb-1 text-md">📞 +91-7338631681</p>
-          <p className="mb-1 text-md">📞 +91-9886332684</p>
-          <p className="mb-1 text-md">Bangalore, India</p>
+          <p className="mb-1 text-md my-1">1770, 1st Cross Road, next to HSR RTO Office, Agara Village, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102</p>
+          <p className="mb-1 text-md mt-3">📞 +91-9886332684</p>
+          <p className=" text-md my-1 mb-4">📞 +91-7338631681</p>
+          <div>
+          <div className="flex text-black space-x-6  text-base">
+  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+    <FaFacebookF className="hover:text-pink-400 transition duration-300" />
+  </a>
+  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+    <FaTwitter className="hover:text-pink-400 transition duration-300" />
+  </a>
+  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+    <FaInstagram className="hover:text-pink-400 transition duration-300" />
+  </a>
+  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+    <FaLinkedinIn className="hover:text-pink-400 transition duration-300" />
+  </a>
+</div>
+
+          </div>
         </div>
 
         {/* Timings */}
@@ -43,7 +60,7 @@ const Footer = () => {
                 whileHover={{ x: 6 }}
                 className="hover:text-blue-900 transition border-b border-orange-200 pb-1"
               >
-                <a href={`/${item.toLowerCase()}`}>{item}</a>
+                <a href={`/${item==='Home'?'':item.toLowerCase()}`}>{item}</a>
               </motion.li>
             ))}
             <li className="pt-4">

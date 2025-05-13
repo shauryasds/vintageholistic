@@ -2,7 +2,16 @@ import React, { useState } from 'react';
 
 function ContactForm() {
   const [formData, setFormData] = useState({ name: '', email: '', query: '' });
-
+  const services = [
+    'Ayurveda Consultation',
+    'Panchakarma',
+    'Yoga Classes',
+    'Reiki Healing',
+    'Crystal Healing',
+    'Card Reading',
+    'Past Life Regression',
+    'Feng Shui'
+  ];
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -45,6 +54,20 @@ function ContactForm() {
               className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
           </div>
+          <div>
+                 
+                  <select
+                    id="service"
+                    
+                    className="mt-1 block w-full p-4 rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
+                  >
+                    <option value="" hidden selected>Select a service</option>
+                    {services.map((s, i) => (
+                      <option key={i} value={s}>{s}</option>
+                    ))}
+                  </select>
+                  
+                </div>
           <textarea
             name="query"
             placeholder="Your Message"

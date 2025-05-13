@@ -46,14 +46,6 @@ const Contact = () => {
       landmark: 'Next to HSR RTO office',
       phone: '+91-9886332684, +91-7338631681',
       mapUrl: 'https://www.google.com/maps/embed?...'
-    },
-    {
-      name: 'Marathahalli',
-      address: "#201, Harsha's Nest, Srinivas Reddy Layout, AECS Layout",
-      city: 'Bangalore - 560037',
-      landmark: 'Landmark: Asha Tiffins',
-      phone: '+91-9886332684, +91-7338631681',
-      mapUrl: 'https://www.google.com/maps/embed?...'
     }
   ];
 
@@ -146,15 +138,17 @@ const Contact = () => {
                     <strong>Phone:</strong> {loc.phone}
                   </p>
                   <iframe
-                    src={loc.mapUrl}
-                    width="100%"
-                    height="220"
-                    className="rounded-lg border-none"
-                    allowFullScreen=""
-                    loading="lazy"
-                    title={`Map - ${loc.name}`}
-                  ></iframe>
-                </div>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7861950235615!2d77.6465769!3d12.9214589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1364e002583b%3A0x3c12c08ab23e7fc3!2sSai%20Sanskruti%20Holistic%20Center%20-%20Reiki%20Classes%2C%20Tarot%20Card%20Reading%2C%20Ayurveda%2C%20Holistic%20healing!5e0!3m2!1sen!2sin!4v1747126919337!5m2!1sen!2sin"
+  width="600"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Sai Sanskruti Holistic Center Location"
+/>
+
+                   </div>
               ))}
 
               {/* Quick Connect */}

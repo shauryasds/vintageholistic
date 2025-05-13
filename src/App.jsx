@@ -19,6 +19,7 @@ import PastLifeRegression from "./pages/PastLifeRegression";
 import FengShui from "./pages/FengShui";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Review from "./pages/review";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/blogs" element={<AllBlog />} />
+          <Route path="/test" element={<Review />} />
           <Route path="/blog/crystal-healing" element={<CrystalHealingBlog />} />
 
           <Route path="/services/reki" element={<Reiki />} />

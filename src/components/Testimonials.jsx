@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import { ElfsightWidget } from 'react-elfsight-widget';
 
 const testimonials = [
   {
@@ -22,13 +25,13 @@ const testimonials = [
 function Testimonials() {
   return (
     <div className="bg-pink-50 w-full min-h-screen py-16 px-4 pb-96">
-      <div className="text-center mb-12 mt-80">
+      <div className="text-center mb-12 ">
         <div className="font-dancing-script text-7xl text-pink-800">"</div>
-        <h2 className="font-dancing-script text-4xl text-pink-900">What Our Clients Say</h2>
+        <h2 className=" text-4xl text-pink-900">What Our Clients Say</h2>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-10 max-w-6xl mx-auto">
-        {testimonials.map((testimonial, index) => (
+      <div className="flex flex-wrap justify-center gap-10 max-w-6xl mx-auto ">
+        {/* {testimonials.map((testimonial, index) => (
           <motion.div  initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }} 
@@ -43,7 +46,13 @@ function Testimonials() {
             <p className="text-gray-700 italic text-sm">"{testimonial.feedback}"</p>
             <h4 className="text-pink-700 font-semibold">{testimonial.name}</h4>
           </motion.div >
-        ))}
+        ))} */}
+      <div>
+      <ElfsightWidget widgetId='dda2a366-babb-4ce3-8cb2-b47efb5e4b2a'/>
+      </div>
+      {/* <div className='bg- z-20 bg-pink-50 relative -top-20 h-10 w-full ' >
+        
+      </div> */}
       </div>
     </div>
   );
