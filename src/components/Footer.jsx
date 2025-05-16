@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-xs text-orange-800 mt-10 border-t border-orange-200 pt-4">
-        © {new Date().getFullYear()} Developed by- shaurya deep shukla / web chily 
+        © {new Date().getFullYear()} Developed by- shaurya deep shukla 
       </div>
       
     </motion.footer>
