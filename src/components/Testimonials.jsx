@@ -50,9 +50,9 @@ function Testimonials() {
       <div>
       <ElfsightWidget widgetId='dda2a366-babb-4ce3-8cb2-b47efb5e4b2a'/>
       </div>
-      {/* <div className='bg- z-20 bg-pink-50 relative -top-20 h-10 w-full ' >
+       <div className='bg- z-20 bg-pink-50 relative -top-20 h-10 w-full ' >
         
-      </div> */}
+      </div> 
       </div>
     </div>
   );
