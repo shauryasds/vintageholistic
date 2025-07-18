@@ -13,7 +13,8 @@ const AnnouncementBar = () => {
                     ease: 'linear'
                 }}
             >
-                👉 Manual Acupressure Therapy • 5D Reiki Healing • Vedic Magnet Therapy • Natural Detox Programs • Ayurvedic Chakra Alignment • Visit us at Sanskruti Holistic Center – Lucknow 🔱
+                👉 Manual Acupressure Therapy • 5D Reiki Healing • Vedic Magnet Therapy • Natural Detox Programs • Ayurvedic Chakra Alignment • Visit us at Vintage Holistic Treatment & Training Center
+                – Lucknow 🔱
             </motion.div>
         </div>
     );

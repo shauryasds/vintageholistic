@@ -17,7 +17,10 @@ function Home() {
       <MainServices />
       <Testimonials />
       <Glimse />
-      <ContactForm />
+      <div className="mt-20">
+        <ContactForm />
+      </div>
+
     </div>
   )
 }

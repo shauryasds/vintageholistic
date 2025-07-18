@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 function Glimse() {
     return (
         <div>
-            <div className='container mt-6 w-full h-[40vh] m-auto relative -top-80 '>
+            <div className='container mt-6 w-full h-[40vh] m-auto relative sm:-top-64 lg:-top-80 '>
                 <Swiper
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}

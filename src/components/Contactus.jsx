@@ -24,7 +24,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="min-h-screen bg-orange-300 bg-gradient-to-b from-white to-orange-100 flex items-center justify-center p-6">
+    <div className="pt-96 lg:pt-0 min-h-screen bg-orange-300 bg-gradient-to-b from-white to-orange-100 flex items-center justify-center ">
       <div className="flex flex-col bg-white shadow-md rounded-xl w-full max-w-5xl overflow-hidden">
         {/* Left - Title */}
         <div className="bg-white p-8 flex flex-col justify-center items-center ">

@@ -4,12 +4,12 @@ import React from 'react';
 const testimonials = [
   {
     name: "Anjali Sharma",
-    feedback: "I had an amazing healing experience with Sanskruti Holistic Center. The therapies were soothing and deeply transformative.",
+    feedback: "I had an amazing healing experience with Vintage Holistic Center. The therapies were soothing and deeply transformative.",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     name: "Rajesh Kumar",
-    feedback: "The personalized consultation truly helped with my chronic pain. Highly recommend Dr. Neelam’s holistic approach!",
+    feedback: "The personalized consultation truly helped with my chronic pain. Highly recommend Dr. Prashad’s holistic approach!",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
