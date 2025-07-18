@@ -32,7 +32,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          {/* <Route path="/services" element={<Services />} />
           <Route path="/blogs" element={<AllBlog />} />
           <Route path="/blog/crystal-healing" element={<CrystalHealingBlog />} />
 
@@ -49,7 +49,7 @@ function App() {
           <Route path="/services/ayurveda" element={<Ayurveda />} />
           <Route path="/services/fengshui" element={<FengShui />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>
