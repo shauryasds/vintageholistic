@@ -40,12 +40,12 @@ const Contact = () => {
 
   const locations = [
     {
-      name: 'HSR Layout',
-      address: '#1770, 1st Cross, HSR Layout Sector 1',
-      city: 'Bangalore - 560102',
-      landmark: 'Next to HSR RTO office',
-      phone: '+91-9886332684, +91-7338631681',
-      mapUrl: 'https://www.google.com/maps/embed?...'
+      name: 'Lucknow',
+      address: '395 Eldeco colony, near pioneer montessory school, Udyan-1, Sector -2, Bangla Bazar, Lucknow, Uttar Pradesh 226002',
+      city: 'Lucknow',
+      landmark: 'Near Pioneer Montessori School',
+      phone: '099569 42226',
+      mapUrl: 'https://maps.app.goo.gl/46ckXjhG3X5zj1iu6'
     }
   ];
 
@@ -137,18 +137,25 @@ const Contact = () => {
                     {loc.landmark}<br />
                     <strong>Phone:</strong> {loc.phone}
                   </p>
-                  <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7861950235615!2d77.6465769!3d12.9214589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1364e002583b%3A0x3c12c08ab23e7fc3!2sSai%20Sanskruti%20Holistic%20Center%20-%20Reiki%20Classes%2C%20Tarot%20Card%20Reading%2C%20Ayurveda%2C%20Holistic%20healing!5e0!3m2!1sen!2sin!4v1747126919337!5m2!1sen!2sin"
-  width="600"
-  height="450"
-  style={{ border: 0 }}
-  allowFullScreen
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  title="Sai Sanskruti Holistic Center Location"
-/>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.4288067710404!2d80.9262444!3d26.7944717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfc1b4ce6644d%3A0xee1ec2a8c359809b!2sVintage%20Holistic%20(%20Acupressure%20%2CVastu%20and%20Reiki%20Treatment%20%26Trainning%20Institute)!5e0!3m2!1sen!2sin!4v1752655631356!5m2!1sen!2sin" width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Vintage Holistic center"></iframe>
+                  {/* <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7861950235615!2d77.6465769!3d12.9214589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1364e002583b%3A0x3c12c08ab23e7fc3!2sSai%20Sanskruti%20Holistic%20Center%20-%20Reiki%20Classes%2C%20Tarot%20Card%20Reading%2C%20Ayurveda%2C%20Holistic%20healing!5e0!3m2!1sen!2sin!4v1747126919337!5m2!1sen!2sin"
+                    width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Sai Sanskruti Holistic Center Location"
+                  /> */}
 
-                   </div>
+                </div>
               ))}
 
               {/* Quick Connect */}

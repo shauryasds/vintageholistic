@@ -28,12 +28,12 @@ function ContactForm() {
       <div className="flex flex-col bg-white shadow-md rounded-xl w-full max-w-5xl overflow-hidden">
         {/* Left - Title */}
         <div className="bg-white p-8 flex flex-col justify-center items-center ">
-          <h2 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-2">Sai Sanskruti Holistic Center</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-2">Vintage Holistic Treatment & Training Center</h2>
           <p className="text-orange-700">Let’s begin your healing journey. Reach out to us today.</p>
         </div>
 
-         {/* Right - Form Section */}
-         <form onSubmit={handleSubmit} className="p-6 sm:p-10 bg-gradient-to-b from-white to-orange-100 space-y-6">
+        {/* Right - Form Section */}
+        <form onSubmit={handleSubmit} className="p-6 sm:p-10 bg-gradient-to-b from-white to-orange-100 space-y-6">
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
             <input
               type="text"
@@ -55,19 +55,19 @@ function ContactForm() {
             />
           </div>
           <div>
-                 
-                  <select
-                    id="service"
-                    
-                    className="mt-1 block w-full p-4 rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
-                  >
-                    <option value="" hidden selected>Select a service</option>
-                    {services.map((s, i) => (
-                      <option key={i} value={s}>{s}</option>
-                    ))}
-                  </select>
-                  
-                </div>
+
+            <select
+              id="service"
+
+              className="mt-1 block w-full p-4 rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
+            >
+              <option value="" hidden selected>Select a service</option>
+              {services.map((s, i) => (
+                <option key={i} value={s}>{s}</option>
+              ))}
+            </select>
+
+          </div>
           <textarea
             name="query"
             placeholder="Your Message"

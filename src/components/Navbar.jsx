@@ -25,11 +25,11 @@ function Navbar() {
 
   const navLinks = (
     <>
-      <Link to="/" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={()=>setMenuOpen((open)=>!open)}>Home</Link>
-      <Link to="/services" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Services</Link>
-      <Link to="/about" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300"onClick={()=>setMenuOpen((open)=>!open)}>About</Link>
-      <Link to="/contact" className="hover:text-pink-600 hover:scale-105 transition-colors duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Contact</Link>
-      <Link to="/blogs" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300"onClick={()=>setMenuOpen((open)=>!open)}>Blog</Link>
+      <Link to="/" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>Home</Link>
+      <Link to="/services" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>Services</Link>
+      <Link to="/about" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>About</Link>
+      <Link to="/contact" className="hover:text-pink-600 hover:scale-105 transition-colors duration-300" onClick={() => setMenuOpen((open) => !open)}>Contact</Link>
+      <Link to="/blogs" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>Blog</Link>
     </>
   );
 
@@ -45,7 +45,7 @@ function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <span className="text-2xl font-serif font-extrabold tracking-widest">Sanskruti</span>
+            <span className="text-2xl font-serif font-extrabold tracking-widest">Vintage</span>
           </Link>
 
           {/* Desktop Navigation */}

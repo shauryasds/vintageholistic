@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const About = () => {
-  const founderImage = "https://images.pexels.com/photos/5214995/pexels-photo-5214995.jpeg";
+  const founderImage = "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-yellow-100 py-20 px-4 sm:px-8 lg:px-12">
@@ -19,34 +19,35 @@ const About = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-700 text-center mb-14 max-w-3xl mx-auto leading-relaxed">
-              Founded in 2004, Sanskruti Holistic Center in Bangalore is a sanctuary for mind-body-soul healing. Our goal is to empower holistic, conscious living through Ayurveda, Reiki, and energy-based modalities.
+              Since its inception in Bangalore, Sanskruti Holistic Center has been a place of transformation through ancient and energy-based healing. Led by a vision to heal through natural sciences, we integrate therapies that nurture body, mind, and spirit.
             </p>
 
             <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
               <motion.img
                 src={founderImage}
-                alt="Dr. Neelam Kewlani"
+                alt="Dr. B. Prashaad"
                 className="rounded-2xl shadow-lg w-full h-auto object-cover"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6 }}
               />
               <div>
-                <h2 className="text-3xl font-bold text-gray-800 mb-4">Dr. Neelam Kewlani</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-4">Dr. B. Prashaad</h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Founder of Sai Sanskruti Holistic Center, Dr. Neelam Kewlani brings 21+ years of Ayurvedic and holistic healing expertise. She integrates ancient wisdom with energy work and therapeutic practices to bring deep, lasting transformation to her clients.
+                  Founder and Chief Healer at Sanskruti Holistic Center, Dr. B. Prashaad blends naturopathy, pharmacology, and multidimensional energy healing. With deep experience and compassion, he guides individuals through powerful internal transformation.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  Her specializations include Panchakarma, Reiki, Crystal Healing, Past Life Regression, and Tarot & Angel Card Reading.
+                  His work spans reflexology, reiki, 5D healing, detox, and inner alignment practices — designed to restore well-being from the inside out.
                 </p>
 
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Qualifications</h3>
                 <ul className="list-disc list-inside text-gray-700 space-y-1 text-base">
-                  <li>B.A.M.S, M.D. Ayurveda – State Rank Holder (RGUHS)</li>
-                  <li>Reiki Master Trainer – Usui Reiki Lineage</li>
-                  <li>Certified Hypnotherapist – California Hypnotherapy Institute (EKA)</li>
-                  <li>Certified Tarot, Angel & Egyptian Card Reader & Trainer</li>
-                  <li>Life Between Lives Regression – Trained under Andy Tomlinson</li>
+                  <li>Acu. (M.D)</li>
+                  <li>N.M.D – Doctor of Naturopathic Medicine</li>
+                  <li>D.N.Y.S – Diploma in Naturopathy & Yogic Sciences</li>
+                  <li>Degree in Pharmacology</li>
+                  <li>Reiki Grandmaster</li>
+                  <li>Specialist in Reflexology & 5-Dimensional Reiki Healing</li>
                 </ul>
               </div>
             </div>
@@ -54,49 +55,29 @@ const About = () => {
             <div className="mb-16">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">Expertise</h3>
               <ul className="grid md:grid-cols-2 gap-x-12 list-disc list-inside text-gray-700 space-y-2 text-lg">
-                <li>Ayurvedic treatments for chronic ailments</li>
-                <li>Panchakarma detox therapies</li>
-                <li>Reiki Healing & Certified Courses</li>
-                <li>Past Life & Age Regression Therapy</li>
-                <li>Tarot, Angel & Egyptian Card Readings</li>
-                <li>Aura cleansing & energy balancing</li>
-                <li>Spiritual Counseling & Training</li>
+                <li>Advanced Reflexology</li>
+                <li>5D Reiki Healing & Energy Attunement</li>
+                <li>Detox Therapies & Naturopathic Cleansing</li>
+                <li>Chakra Alignment & Aura Balancing</li>
+                <li>Reiki Courses & Attunements</li>
+                <li>Emotional & Spiritual Counseling</li>
+                <li>Multidimensional Healing & Intuitive Therapy</li>
               </ul>
             </div>
 
             <div className="mb-16">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">Philosophy</h3>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Dr. Neelam believes true healing begins at the root—addressing emotional, physical, and spiritual causes. Her warm, intuitive approach fosters trust and self-discovery, helping clients experience deep healing, inner clarity, and balanced living.
+                Dr. Prashaad believes healing must begin at the energetic level — where thoughts, emotions, and imbalances originate. His holistic philosophy combines modern insight with ancient healing tools, allowing each individual to step into self-healing and empowerment.
               </p>
             </div>
 
-            <div className="mb-16">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Our Locations</h3>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-white border border-yellow-200 rounded-xl p-6 shadow hover:shadow-md transition">
-                  <h4 className="font-semibold text-lg text-gray-900 mb-1">HSR Layout</h4>
-                  <p className="text-gray-700">
-                    #1770, 1st Cross, Sector 1, HSR Layout<br />
-                    Bangalore - 560102<br />
-                    Landmark: Next to HSR RTO Office
-                  </p>
-                </div>
-                <div className="bg-white border border-yellow-200 rounded-xl p-6 shadow hover:shadow-md transition">
-                  <h4 className="font-semibold text-lg text-gray-900 mb-1">Marathahalli</h4>
-                  <p className="text-gray-700">
-                    #201, Harsha's Nest, Srinivas Reddy Layout<br />
-                    AECS Layout, Bangalore - 560037<br />
-                    Landmark: Asha Tiffins
-                  </p>
-                </div>
-              </div>
-            </div>
+
 
             <div className="text-center text-gray-800 mt-14">
-              <h3 className="text-xl font-semibold mb-2">Contact Dr. Neelam</h3>
-              <p className="text-lg">📞 +91-9886332684 / +91-7338631681</p>
-              <p className="text-lg">📧 sanskrutiholistic@gmail.com</p>
+              <h3 className="text-xl font-semibold mb-2">Contact Dr. B. Prashaad</h3>
+              <p className="text-lg">📞 099569 42226</p>
+              <p className="text-lg">📧 vintageholistic@gmail.com</p>
             </div>
           </div>
         </motion.div>

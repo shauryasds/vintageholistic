@@ -6,30 +6,46 @@ const whatsappLink = "https://wa.me/919886332684?text=Hi,%20I'm%20interested%20i
 
 const services = {
   courses: [
+    { title: "Original Manual Acupressure ", link: "/services/acupressure" },
+    { title: "Vastu", link: "/services/vastu" },
+    { title: "Astrology", link: "/services/astrology" },
+    { title: "Tcm & Ayurvedic Magnet Treatment", link: "/services/tcm-ayurvedic-magnet-treatment" },
+    { title: "Reki Healing ", link: "/services/reki" },
+
+
+    { title: "Tarot Card Reading", link: "/services/card-reading" },
+
+
+
+
     { title: "Usui Reiki Level 1", link: "/services/reki" },
     { title: "Usui Reiki Level 2", link: "/services/reki" },
     { title: "Usui Reiki Level 3A", link: "/services/reki" },
     { title: "Usui Reiki Level 3B", link: "/services/reki" },
     { title: "Usui Reiki Grand Mastership Level", link: "/services/reki" }, // typo corrected
     { title: "Karuna Reiki", link: "/services/reki" },
-    { title: "Crystal Healing", link: "/services/crystal-healing" },
+    // { title: "Crystal Healing", link: "/services/crystal-healing" },
     { title: "Egyptian Card Reading", link: "/services/card-reading" },
     { title: "Rider Waite Tarot Card Reading", link: "/services/card-reading" },
     { title: "Angel Card Reading", link: "/services/card-reading" },
-    { title: "Basic and Advance course in Meditation", link: whatsappLink },
-    { title: "Angel Therapy Course", link: whatsappLink },
-    { title: "Aura and Chakra Healing", link: whatsappLink },
     { title: "Basics of Ayurveda", link: "/services/ayurveda" },
-    { title: "Beauty Course in Ayurveda", link: "/services/ayurveda" },
-    { title: "Basic Course in FengShui", link: "/services/fengshui" },
+    // { title: "Beauty Course in Ayurveda", link: "/services/ayurveda" },
+    // { title: "Basic Course in FengShui", link: "/services/fengshui" },
+
+
   ],
   therapies: [
     { title: "Ayurveda Consultation", link: "/services/ayurveda" },
     { title: "Tarot, Egyptian and Angel Card Reading", link: "/services/card-reading" },
-    { title: "Aura Reading Session", link: whatsappLink },
-    { title: "Feng Shui Consultation", link: "/services/fengshui" },
-    { title: "Past Life Regression Session", link: "/services/past-life-regression" },
-    { title: "Life between Lives Session", link: whatsappLink },
+    { title: "Reki Course", link: whatsappLink },
+    { title: "Complete Vastu Course", link: whatsappLink },
+    { title: "Basic and Advance course in Meditation", link: whatsappLink },
+    { title: "Angel Therapy Course", link: whatsappLink },
+    { title: "Aura and Chakra Healing", link: whatsappLink },
+    // { title: "Aura Reading Session", link: whatsappLink },
+    // { title: "Feng Shui Consultation", link: "/services/fengshui" },
+    // { title: "Past Life Regression Session", link: "/services/past-life-regression" },
+    // { title: "Life between Lives Session", link: whatsappLink },
   ],
 };
 
@@ -66,7 +82,7 @@ const ServicePage = () => {
 
         <section className="mb-20">
           <h2 className="text-4xl font-serif font-bold text-center text-gray-900 mb-12">
-            Courses
+            Treatments & Healing Consultation
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {services.courses.map(({ title, link }, idx) => (
@@ -77,7 +93,7 @@ const ServicePage = () => {
 
         <section>
           <h2 className="text-4xl font-serif font-bold text-center text-gray-900 mb-12">
-            Therapies & Consultation
+            Get Training & Certifications
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {services.therapies.map(({ title, link }, idx) => (

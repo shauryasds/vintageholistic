@@ -4,16 +4,21 @@ import { Link } from 'react-router-dom';
 
 // Map titles to actual service links from your full services list
 const serviceLinks = {
+  "Original Manual Acupressure ": "/services/acupressure",
+  "Vastu": "/services/vastu",
+  "Astrology": "/services/astrology",
+  "Tcm & Ayurvedic Magnet Treatment": "/services/tcm-ayurvedic-magnet-treatment",
+  "Reki Healing ": "/services/reki",
+
+
+  "Tarot Card Reading": "/services/card-reading",
+
+
+
   "Usui Reiki Level 1": "/services/reki",
   "Usui Reiki Level 2": "/services/reki",
-  "Crystal Healing": "/services/crystal-healing",
-  "Tarot Card Reading": "/services/card-reading",
-  "Ayurveda Consultation": "/services/ayurveda",
-  "Angel Therapy": "https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20Angel%20Therapy",
-  "Past Life Regression": "/services/past-life-regression",
-  "Feng Shui Consultation": "/services/fengshui",
-  "Aura & Chakra Healing": "https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20Aura%20%26%20Chakra%20Healing",
-  "Beauty Course in Ayurveda": "/services/ayurveda",
+  "Usui Reiki Level 3A": "/services/reki",
+  "Usui Reiki Level 3B": "/services/reki",
 };
 
 const services = Object.keys(serviceLinks).slice(0, 8); // pick first 8

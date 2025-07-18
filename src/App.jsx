@@ -19,10 +19,16 @@ import PastLifeRegression from "./pages/PastLifeRegression";
 import FengShui from "./pages/FengShui";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import TopBar from "./components/TopBar";
+import Acupressure from "./pages/Acupressure";
+import VastuConsultation from "./pages/Vastu";
+import Astrology from "./pages/Astrology";
+import AyurvedicMagnet from "./pages/AyurvedicMedicine";
 function App() {
   return (
     <>
       <BrowserRouter>
+        <TopBar />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -31,6 +37,11 @@ function App() {
           <Route path="/blog/crystal-healing" element={<CrystalHealingBlog />} />
 
           <Route path="/services/reki" element={<Reiki />} />
+          <Route path="/services/vastu" element={<VastuConsultation />} />
+          <Route path="/services/astrology" element={<Astrology />} />
+          <Route path="/services/tcm-ayurvedic-magnet-treatment" element={<AyurvedicMagnet />} />
+
+          <Route path="/services/acupressure" element={<Acupressure />} />
           <Route path="/services/crystal-healing" element={<CrystalHealing />} />
           <Route path="/services/reki" element={<Reiki />} />
           <Route path="/services/card-reading" element={<CardReading />} />

@@ -13,25 +13,24 @@ const Footer = () => {
 
         {/* Brand & Contact */}
         <div className=''>
-          <h2 className="text-4xl font-bold mb-2">Sanskruti Holistic Center</h2>
-          <p className="mb-1 text-md my-1">1770, 1st Cross Road, next to HSR RTO Office, Agara Village, 1st Sector, HSR Layout, Bengaluru, Karnataka 560102</p>
-          <p className="mb-1 text-md mt-3">📞 +91-9886332684</p>
-          <p className=" text-md my-1 mb-4">📞 +91-7338631681</p>
+          <h2 className="text-4xl font-bold mb-2">Vintage Holistic Treatment & Training Center</h2>
+          <p className="mb-1 text-md my-1">395 Eldeco colony, near pioneer montessory school, Udyan-1, Sector -2, Bangla Bazar, Lucknow, Uttar Pradesh 226002</p>
+          <p className="mb-1 text-md mt-3">📞 099569 42226</p>
           <div>
-          <div className="flex text-black space-x-6  text-base">
-  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-    <FaFacebookF className="hover:text-pink-400 transition duration-300" />
-  </a>
-  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-    <FaTwitter className="hover:text-pink-400 transition duration-300" />
-  </a>
-  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-    <FaInstagram className="hover:text-pink-400 transition duration-300" />
-  </a>
-  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-    <FaLinkedinIn className="hover:text-pink-400 transition duration-300" />
-  </a>
-</div>
+            <div className="flex text-black space-x-6  text-base">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <FaFacebookF className="hover:text-pink-400 transition duration-300" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <FaTwitter className="hover:text-pink-400 transition duration-300" />
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <FaInstagram className="hover:text-pink-400 transition duration-300" />
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <FaLinkedinIn className="hover:text-pink-400 transition duration-300" />
+              </a>
+            </div>
 
           </div>
         </div>
@@ -60,13 +59,13 @@ const Footer = () => {
                 whileHover={{ x: 6 }}
                 className="hover:text-blue-900 transition border-b border-orange-200 pb-1"
               >
-                <a href={`/${item==='Home'?'':item.toLowerCase()}`}>{item}</a>
+                <a href={`/${item === 'Home' ? '' : item.toLowerCase()}`}>{item}</a>
               </motion.li>
             ))}
             <li className="pt-4">
               <motion.a
                 whileHover={{ scale: 1.03 }}
-                href="https://www.google.com/search?q=Sai+Sanskruti+Holistic+Center"
+                href="https://g.co/kgs/QLq569Y"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white shadow-lg outline-double text-black px-4 py-2 rounded-md hover:bg-orange-700 hover:text-white transition"
@@ -79,9 +78,9 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-xs text-orange-800 mt-10 border-t border-orange-200 pt-4">
-        © {new Date().getFullYear()} Developed by- shaurya deep shukla 
+        © {new Date().getFullYear()} Developed by- shaurya deep shukla
       </div>
-      
+
     </motion.footer>
   );
 };
