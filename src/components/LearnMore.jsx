@@ -7,29 +7,29 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const LearnMoreAboutHolisticWellness = () => {
-    const benefits = [
-        {
-          text: "Inner peace through guided yoga and mindfulness practices",
-          image: "https://images.pexels.com/photos/6932022/pexels-photo-6932022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", // girl doing yoga
-        },
-        {
-          text: "Personalized Ayurvedic therapies for holistic healing",
-          image: "https://images.pexels.com/photos/8964948/pexels-photo-8964948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", // healing massage
-        },
-        {
-          text: "Restore balance and energy through nature-inspired wellness",
-          image: "https://images.pexels.com/photos/8964948/pexels-photo-8964948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", // serene wellness
-        },
-        {
-          text: "Authentic Ayurvedic expertise rooted in tradition",
-          image: "https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", // herbal and traditional
-        },
-        {
-          text: "Healing at your convenience with online consultations",
-          image: "https://images.pexels.com/photos/9031632/pexels-photo-9031632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", // laptop consultation
-        },
-      ];
-      
+  const benefits = [
+    {
+      text: "Inner peace through guided yoga and mindfulness practices",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/a_-90/v1753193368/IMG-20250716-WA0008_r2rfxq.jpg", // girl doing yoga
+    },
+    {
+      text: "Personalized Ayurvedic therapies for holistic healing",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193342/IMG-20250716-WA0006_rfkrea.jpg", // healing massage
+    },
+    {
+      text: "Restore balance and energy through nature-inspired wellness",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/a_-90/v1753193343/IMG-20250716-WA0007_t4k90k.jpg", // serene wellness
+    },
+    {
+      text: "Authentic Ayurvedic expertise rooted in tradition",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193277/IMG-20250722-WA0015_weizo7.jpg", // herbal and traditional
+    },
+    {
+      text: "Healing at your convenience with online consultations",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193278/IMG-20250722-WA0016_bgwgqx.jpg", // laptop consultation
+    },
+  ];
+
 
   return (
     <div className="py-20 px-4 mt-12 md:px-8 max-h-[60vh]">

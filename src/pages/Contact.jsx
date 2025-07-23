@@ -21,11 +21,31 @@ const Contact = () => {
       service: Yup.string().required('Please select a service'),
       message: Yup.string().required('Message is required')
     }),
+
     onSubmit: (values) => {
-      console.log(values);
-      window.location.href = calendlyUrl; // redirect to Calendly after form submission
+      const { name, email, service, message: query } = values;
+
+      const message = `Hello! I am 
+ ${encodeURIComponent(name)}%0A
+my email is : ${encodeURIComponent(email)}, i am interested in the service:
+ ${encodeURIComponent(service)} ,
+${encodeURIComponent(query)}`;
+
+      // Replace with your own WhatsApp number (with country code, no + or spaces)
+      const whatsappNumber = '09956942226';
+
+      const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+      // Open WhatsApp in new tab
+      window.open(whatsappLink, '_blank');
+
+
+      // console.log(values);
+      // alert('Thankyou for contacting')
+      // window.location.href = calendlyUrl; // redirect to Calendly after form submission
     }
   });
+
 
   const services = [
     'Ayurveda Consultation',
@@ -163,7 +183,7 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Quick Connect</h3>
                 <div className="flex flex-col gap-4">
                   <a
-                    href="https://wa.me/919886332684"
+                    href="https://wa.me/09956942226"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-600 hover:bg-green-700 text-white py-2 rounded-xl text-center font-medium transition"
@@ -171,7 +191,7 @@ const Contact = () => {
                     💬 Chat on WhatsApp
                   </a>
                   <a
-                    href="mailto:sanskrutiholistic@gmail.com"
+                    href="mailto:svintageholistic@gmail.com"
                     className="bg-gray-100 hover:bg-gray-200 text-gray-900 py-2 rounded-xl text-center font-medium transition"
                   >
                     ✉️ Email Us

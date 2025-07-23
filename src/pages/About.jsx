@@ -2,7 +2,18 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const About = () => {
-  const founderImage = "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg";
+  const founderImage = "https://res.cloudinary.com/dn9yo8x89/image/upload/c_fill,ar_3:4,g_auto/v1753193310/IMG-20250716-WA0005_vlniwi.jpg";
+  const juniorAssistants = [
+    {
+      role: "Assistant Acupressure Therapist",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753194783/Screenshot_2025-07-22_at_8.02.28_PM_psvmph.png",
+    },
+    {
+      role: "Reiki Assistant",
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193323/IMG_20250722_140941324_tbj89i.jpg",
+    },
+    // Add more assistants as needed
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-yellow-100 py-20 px-4 sm:px-8 lg:px-12">
@@ -72,6 +83,23 @@ const About = () => {
               </p>
             </div>
 
+            <div className="mb-16">
+              <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8">
+                {juniorAssistants.map((assistant, index) => (
+                  <div
+                    key={index}
+                    className="bg-white rounded-xl shadow-md overflow-hidden text-center p-4 hover:shadow-lg transition"
+                  >
+                    <img
+                      src={assistant.image}
+                      alt={assistant.role}
+                      className="w-full h-72 object-cover rounded-md mb-4"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
 
 
             <div className="text-center text-gray-800 mt-14">
@@ -87,3 +115,4 @@ const About = () => {
 };
 
 export default About;
+

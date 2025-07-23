@@ -24,6 +24,7 @@ import Acupressure from "./pages/Acupressure";
 import VastuConsultation from "./pages/Vastu";
 import Astrology from "./pages/Astrology";
 import AyurvedicMagnet from "./pages/AyurvedicMedicine";
+import AnnouncementBar from "./components/AnnouncementBar";
 function App() {
   return (
     <>
@@ -47,10 +48,11 @@ function App() {
           <Route path="/services/card-reading" element={<CardReading />} />
           <Route path="/services/past-life-regression" element={<PastLifeRegression />} />
           <Route path="/services/ayurveda" element={<Ayurveda />} />
-          <Route path="/services/fengshui" element={<FengShui />} />
+          <Route path="/services/fengshui" element={<FengShui />} /> */}
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
+        <AnnouncementBar />
         <Footer />
       </BrowserRouter>
     </>
