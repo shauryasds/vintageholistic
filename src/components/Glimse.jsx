@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 function Glimse() {
     return (
         <div>
-            <div className='container mt-6 w-full h-[40vh] m-auto relative sm:-top-64 lg:-top-80 '>
+            <div className='container mt-6 w-full h-[40vh] m-auto relative -top-10 '>
                 <Swiper
                     // install Swiper modules
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
@@ -28,35 +28,28 @@ function Glimse() {
                     onSlideChange={() => console.log('slide change')}
 
                 >
-                    <SwiperSlide className='rounded-lg'>
-                        <div className="h-[70vh] bg-cover bg-center relative -top-70"
+
+                    <SwiperSlide>
+                        <div className="h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://images.pexels.com/photos/6932022/pexels-photo-6932022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193280/IMG-20250722-WA0017_ifiaon.jpg')",
                             }}>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="h-[70vh] bg-cover bg-center"
+                        <div className="h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://images.pexels.com/photos/8964948/pexels-photo-8964948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/c_crop,ar_16:9/v1753194783/Screenshot_2025-07-22_at_8.02.28_PM_psvmph.png')",
                             }}>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="h-[70vh] bg-cover bg-center"
+                        <div className="h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://images.pexels.com/photos/3757952/pexels-photo-3757952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-                            }}>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h-[70vh] bg-cover bg-center"
-                            style={{
-                                backgroundImage:
-                                    "url('https://images.pexels.com/photos/9031632/pexels-photo-9031632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193278/4_uinlg0.jpg')",
                             }}>
                         </div>
                     </SwiperSlide>
