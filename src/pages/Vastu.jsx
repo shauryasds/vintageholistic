@@ -19,7 +19,7 @@ const VastuConsultation = () => {
 
                         <div className="mb-12">
                             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                                At Sanskruti Holistic Center, we offer personalized Vastu consultations to harmonize your living and working spaces. Guided by ancient Indian architectural science, our approach enhances health, wealth, relationships, and spiritual well-being.
+                                At Vintage Holistic Center, we offer personalized Vastu consultations to harmonize your living and working spaces. Guided by ancient Indian architectural science, our approach enhances health, wealth, relationships, and spiritual well-being.
                             </p>
                         </div>
 
@@ -83,7 +83,7 @@ const VastuConsultation = () => {
                             </p>
                             <div className="flex justify-center gap-4">
                                 <motion.a
-                                    href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20your%20Vastu%20consultation%20services"
+                                    href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20your%20Vastu%20consultation%20services"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors duration-300"
@@ -92,14 +92,7 @@ const VastuConsultation = () => {
                                 >
                                     WhatsApp Us
                                 </motion.a>
-                                <motion.a
-                                    href="mailto:sanskrutiholistic@gmail.com"
-                                    className="inline-block bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-300"
-                                    whileHover={{ scale: 1.05 }}
-                                    whileTap={{ scale: 0.95 }}
-                                >
-                                    Email Us
-                                </motion.a>
+
                             </div>
                         </motion.div>
                     </div>

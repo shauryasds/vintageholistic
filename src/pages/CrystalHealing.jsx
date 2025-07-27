@@ -36,7 +36,7 @@ const CrystalHealing = () => {
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Sanskruti Holistic Center conducts comprehensive Crystal Healing courses in Bangalore. Learn the ancient art of healing with crystals and their powerful energetic properties.
+                Vintage Holistic Center conducts comprehensive Crystal Healing courses in Lucknow. Learn the ancient art of healing with crystals and their powerful energetic properties.
               </p>
             </div>
 
@@ -71,8 +71,8 @@ const CrystalHealing = () => {
                     <p className="text-gray-700">Two days × 3 hours each day</p>
                   </div>
                   <div className="flex flex-col space-y-2">
-                    <h4 className="text-lg font-medium text-gray-900">Course Fees:</h4>
-                    <p className="text-emerald-600 font-bold">₹11,000 (including certification and materials)</p>
+                    {/* <h4 className="text-lg font-medium text-gray-900">Course Fees:</h4>
+                    <p className="text-emerald-600 font-bold">₹11,000 (including certification and materials)</p> */}
                   </div>
                   <div className="flex flex-col space-y-2">
                     <h4 className="text-lg font-medium text-gray-900">Crystal Set (Optional):</h4>
@@ -107,7 +107,7 @@ const CrystalHealing = () => {
               </p>
               <div className="flex justify-center gap-4">
                 <motion.a
-                  href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20the%20Crystal%20Healing%20course"
+                  href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20the%20Crystal%20Healing%20course"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors duration-300"
@@ -117,7 +117,7 @@ const CrystalHealing = () => {
                   Enquire on WhatsApp
                 </motion.a>
                 <motion.a
-                  href="tel:+919886332684"
+                  href="tel:+919956942226"
                   className="inline-block bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-300"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

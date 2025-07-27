@@ -25,7 +25,7 @@ const services = Object.keys(serviceLinks).slice(0, 8); // pick first 8
 
 const MainServices = () => {
   return (
-    <div className="bg-gradient-to-b from-white to-rose-50  py-16 px-4 mt-72 md:px-10">
+    <div className="bg-gradient-to-b from-white to-rose-50  py-16 px-4  md:px-10">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

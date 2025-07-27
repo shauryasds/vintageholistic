@@ -10,23 +10,23 @@ const LearnMoreAboutHolisticWellness = () => {
   const benefits = [
     {
       text: "Inner peace through guided yoga and mindfulness practices",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/a_-90/v1753193368/IMG-20250716-WA0008_r2rfxq.jpg", // girl doing yoga
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/a_-90/v1753193368/IMG-20250716-WA0008_r2rfxq.jpg", // girl doing yoga
     },
     {
       text: "Personalized Ayurvedic therapies for holistic healing",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193342/IMG-20250716-WA0006_rfkrea.jpg", // healing massage
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193342/IMG-20250716-WA0006_rfkrea.jpg", // healing massage
     },
     {
       text: "Restore balance and energy through nature-inspired wellness",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/a_-90/v1753193343/IMG-20250716-WA0007_t4k90k.jpg", // serene wellness
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/a_-90/v1753193343/IMG-20250716-WA0007_t4k90k.jpg", // serene wellness
     },
     {
       text: "Authentic Ayurvedic expertise rooted in tradition",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193277/IMG-20250722-WA0015_weizo7.jpg", // herbal and traditional
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193277/IMG-20250722-WA0015_weizo7.jpg", // herbal and traditional
     },
     {
       text: "Healing at your convenience with online consultations",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753193278/IMG-20250722-WA0016_bgwgqx.jpg", // laptop consultation
+      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193278/IMG-20250722-WA0016_bgwgqx.jpg", // laptop consultation
     },
   ];
 
@@ -68,8 +68,10 @@ const LearnMoreAboutHolisticWellness = () => {
                 className="relative h-80 rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
                 style={{
                   backgroundImage: `url(${benefit.image})`,
-                  backgroundSize: 'cover',
+                  backgroundSize: 'contain',
                   backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
+
                 }}
               >
                 {/* Overlay */}

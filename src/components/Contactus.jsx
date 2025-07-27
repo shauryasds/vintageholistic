@@ -36,7 +36,7 @@ my email is : ${encodeURIComponent(email)}, i am interested in the service:
 ${encodeURIComponent(query)}`;
 
     // Replace with your own WhatsApp number (with country code, no + or spaces)
-    const whatsappNumber = '09956942226';
+    const whatsappNumber = '919956942226';
 
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
@@ -49,7 +49,7 @@ ${encodeURIComponent(query)}`;
   };
 
   return (
-    <div className="pt-96 min-h-screen bg-orange-300 bg-gradient-to-b from-white to-orange-100 flex items-center justify-center">
+    <div className="pt-40 sm:pt-[90vh] min-h-screen bg-orange-300 bg-gradient-to-b from-white to-orange-100 flex items-center justify-center">
       <div className="flex flex-col bg-white shadow-md rounded-xl w-full max-w-5xl overflow-hidden">
         <div className="bg-white p-8 flex flex-col justify-center items-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-2">

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import { Link } from 'react-router-dom';
-const whatsappLink = "https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20this%20course/service";
+const whatsappLink = "https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20this%20course/service";
 
 const services = {
   courses: [
@@ -76,7 +76,7 @@ const ServicePage = () => {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-serif font-extrabold text-center text-gray-900 mb-16">
           <span className="text-emerald-600 text-6xl">🌿</span>
-          <span className="mx-4">Sanskruti Holistic Center</span>
+          <span className="mx-4">Vintage Holistic Center</span>
           <span className="text-emerald-600 text-6xl">🌿</span>
         </h1>
 

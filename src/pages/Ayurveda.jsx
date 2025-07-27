@@ -45,7 +45,7 @@ const Ayurveda = () => {
             </h1>
 
             <p className="text-lg text-gray-700 mb-10 text-center">
-              Learn the timeless science of Ayurveda under the guidance of Dr. Neelam Kewlani at Sanskruti Holistic Center. Explore foundational principles, herbal wisdom, massage therapies, and Panchakarma techniques.
+              Learn the timeless science of Ayurveda under the guidance of Dr. Neelam Kewlani at Vintage Holistic Center. Explore foundational principles, herbal wisdom, massage therapies, and Panchakarma techniques.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -61,10 +61,10 @@ const Ayurveda = () => {
                   <p className="text-gray-700 mb-4">{course.description}</p>
                   <div className="text-gray-600 text-sm">
                     <p><strong>Duration:</strong> {course.duration}</p>
-                    <p><strong>Fees:</strong> {course.fee}</p>
+                    {/* <p><strong>Fees:</strong> {course.fee}</p> */}
                   </div>
                   <motion.a
-                    href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20Ayurveda%20courses"
+                    href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20Ayurveda%20courses"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-block bg-amber-500 text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition duration-300 text-sm"
@@ -91,7 +91,7 @@ const Ayurveda = () => {
               </p>
               <div className="flex justify-center gap-4">
                 <motion.a
-                  href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20Ayurveda%20course%20registration"
+                  href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20Ayurveda%20course%20registration"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-amber-600 text-white px-6 py-3 rounded-lg hover:bg-amber-700 transition duration-300"
@@ -100,14 +100,7 @@ const Ayurveda = () => {
                 >
                   WhatsApp Us
                 </motion.a>
-                <motion.a
-                  href="tel:+919886332684"
-                  className="bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition duration-300"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Call Us
-                </motion.a>
+
               </div>
             </motion.div>
           </div>
@@ -116,7 +109,7 @@ const Ayurveda = () => {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/919886332684"
+        href="https://wa.me/919956942226"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50"
         target="_blank"
         rel="noopener noreferrer"

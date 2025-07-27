@@ -19,7 +19,7 @@ const CardReading = () => {
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Sanskruti Holistic Center conducts specialized sessions and classes for Egyptian Cartouche Card Reading. Learn the ancient art of interpreting messages from the higher self using symbolic Egyptian archetypes.
+                Vintage Holistic Center conducts specialized sessions and classes for Egyptian Cartouche Card Reading. Learn the ancient art of interpreting messages from the higher self using symbolic Egyptian archetypes.
               </p>
             </div>
 
@@ -53,10 +53,10 @@ const CardReading = () => {
                     <h4 className="text-lg font-medium text-gray-900">Duration:</h4>
                     <p className="text-gray-700">60 minutes per session</p>
                   </div>
-                  <div className="flex flex-col space-y-2">
+                  {/* <div className="flex flex-col space-y-2">
                     <h4 className="text-lg font-medium text-gray-900">Cost:</h4>
                     <p className="text-yellow-600 font-bold">₹2,000</p>
-                  </div>
+                  </div> */}
                   <div className="flex flex-col space-y-2">
                     <h4 className="text-lg font-medium text-gray-900">Mode:</h4>
                     <p className="text-gray-700">In-person or over phone</p>
@@ -83,7 +83,7 @@ const CardReading = () => {
               </p>
               <div className="flex justify-center gap-4">
                 <motion.a
-                  href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20the%20Egyptian%20Card%20Reading%20course"
+                  href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20the%20Egyptian%20Card%20Reading%20course"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors duration-300"
@@ -92,14 +92,7 @@ const CardReading = () => {
                 >
                   Enquire on WhatsApp
                 </motion.a>
-                <motion.a
-                  href="mailto:sanskrutiholistic@gmail.com"
-                  className="inline-block bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-300"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Email Us
-                </motion.a>
+
               </div>
             </motion.div>
           </div>
