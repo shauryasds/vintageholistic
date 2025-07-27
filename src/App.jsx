@@ -25,15 +25,18 @@ import VastuConsultation from "./pages/Vastu";
 import Astrology from "./pages/Astrology";
 import AyurvedicMagnet from "./pages/AyurvedicMedicine";
 import AnnouncementBar from "./components/AnnouncementBar";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
       <BrowserRouter>
         <TopBar />
         <Navbar />
+        <ScrollToTop />
+
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/blogs" element={<AllBlog />} />
           <Route path="/blog/crystal-healing" element={<CrystalHealingBlog />} />
 
@@ -48,7 +51,7 @@ function App() {
           <Route path="/services/card-reading" element={<CardReading />} />
           <Route path="/services/past-life-regression" element={<PastLifeRegression />} />
           <Route path="/services/ayurveda" element={<Ayurveda />} />
-          <Route path="/services/fengshui" element={<FengShui />} /> */}
+          <Route path="/services/fengshui" element={<FengShui />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

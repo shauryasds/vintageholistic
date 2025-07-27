@@ -18,7 +18,7 @@ const Acupressure = () => {
 
                         <div className="mb-12">
                             <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                                Experience the healing power of Manual Acupressure at <span className="font-semibold text-blue-600">Sai Sanskruti Holistic Center</span>.
+                                Experience the healing power of Manual Acupressure at <span className="font-semibold text-blue-600">Vintage Holistic Center</span>.
                                 We are <span className="font-bold text-yellow-600">Lucknow's only provider</span> of this specialized treatment, with a reputation for excellence and care.
                             </p>
                         </div>
@@ -69,7 +69,7 @@ const Acupressure = () => {
                             </p>
                             <div className="flex justify-center gap-4">
                                 <motion.a
-                                    href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20booking%20a%20Manual%20Acupressure%20session"
+                                    href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20booking%20a%20Manual%20Acupressure%20session"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors duration-300"
@@ -78,14 +78,7 @@ const Acupressure = () => {
                                 >
                                     WhatsApp Us
                                 </motion.a>
-                                <motion.a
-                                    href="mailto:sanskrutiholistic@gmail.com"
-                                    className="inline-block bg-white text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-300"
-                                    whileHover={{ scale: 1.05 }}
-                                    whileTap={{ scale: 0.95 }}
-                                >
-                                    Email Us
-                                </motion.a>
+
                             </div>
                         </motion.div>
                     </div>

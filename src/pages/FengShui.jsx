@@ -60,7 +60,7 @@ const FengShui = () => {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-4xl font-bold text-primary mb-8">Feng Shui Consultation & Training</h1>
-          
+
           <div className="bg-white rounded-lg shadow-md p-8 mb-12">
             <p className="text-lg mb-6">
               Feng Shui is an ancient Chinese art of arranging spaces and balancing energies to promote health, prosperity, and well-being. Learn how to harness the power of Chi to create harmony in your environment.
@@ -138,44 +138,37 @@ const FengShui = () => {
           </div>
 
           <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="mt-12 bg-yellow-100 rounded-xl p-8"
-            >
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
-                Book a Session or Register for the Course
-              </h2>
-              <p className="text-gray-700 mb-6 text-center">
-                Call us to find out the next schedule or register for an individual session.
-              </p>
-              <div className="flex justify-center gap-4">
-                <motion.a
-                  href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20the%20Egyptian%20Card%20Reading%20course"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors duration-300"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Enquire on WhatsApp
-                </motion.a>
-                <motion.a
-                  href="mailto:sanskrutiholistic@gmail.com"
-                  className="inline-block bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors duration-300"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Email Us
-                </motion.a>
-              </div>
-            </motion.div>
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mt-12 bg-yellow-100 rounded-xl p-8"
+          >
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
+              Book a Session or Register for the Course
+            </h2>
+            <p className="text-gray-700 mb-6 text-center">
+              Call us to find out the next schedule or register for an individual session.
+            </p>
+            <div className="flex justify-center gap-4">
+              <motion.a
+                href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20the%20Egyptian%20Card%20Reading%20course"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Enquire on WhatsApp
+              </motion.a>
+
+            </div>
+          </motion.div>
         </motion.div>
       </div>
 
       {/* WhatsApp Float Button */}
       <a
-        href="https://wa.me/919886332684"
+        href="https://wa.me/919956942226"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50"
         target="_blank"
         rel="noopener noreferrer"

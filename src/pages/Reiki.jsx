@@ -123,7 +123,7 @@ const Reiki = () => {
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We undertake courses in all levels of Reiki. The courses are conducted by Dr. Neelam, a trained Reiki Grand Master with over 18 years of experience in Bangalore. She has successfully trained thousands of students in various levels of Reiki.
+                We undertake courses in all levels of Reiki. The courses are conducted by Dr. Neelam, a trained Reiki Grand Master with over 18 years of experience in Lucknow. She has successfully trained thousands of students in various levels of Reiki.
               </p>
             </div>
 
@@ -154,16 +154,16 @@ const Reiki = () => {
                       </ul>
                     </div>
 
-                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                    <div className="bg-white p-6 rounded-lg shadow-lg h-56">
                       <div className="space-y-4">
                         <div className="flex items-center justify-between">
                           <span className="text-gray-700">Duration:</span>
                           <span className="font-medium text-gray-900">{course.duration}</span>
                         </div>
-                        <div className="flex items-center justify-between">
+                        {/* <div className="flex items-center justify-between">
                           <span className="text-gray-700">Fees:</span>
                           <span className="text-emerald-600 font-bold">₹{course.fees}</span>
-                        </div>
+                        </div> */}
                         <div className="flex items-center justify-between">
                           <span className="text-gray-700">Class Type:</span>
                           <span className="text-gray-900">
@@ -173,7 +173,7 @@ const Reiki = () => {
                       </div>
 
                       <motion.a
-                        href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20Reiki%20courses"
+                        href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20Reiki%20courses"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block w-full mt-6 bg-emerald-600 text-white py-3 px-6 rounded-lg hover:bg-emerald-700 transition-colors duration-300"
@@ -193,8 +193,17 @@ const Reiki = () => {
                 Contact Information
               </h2>
               <div className="text-center space-y-2 text-gray-700">
-                <p>📞 Phone: +91-9886332684 / +91-7338631681</p>
-                <p>📧 Email: sanskrutiholistic@gmail.com</p>
+                <p>📞 Phone: +919956942226</p>
+                <a href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20the%Reki%20Healing%20course"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition-colors duration-300"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Enquire on WhatsApp
+                </a>
+
               </div>
             </div>
           </div>

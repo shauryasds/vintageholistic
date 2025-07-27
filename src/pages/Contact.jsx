@@ -4,7 +4,6 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
 const Contact = () => {
-  const calendlyUrl = 'https://calendly.com/shuklashauryadeep589/30min';
 
   const formik = useFormik({
     initialValues: {
@@ -16,16 +15,16 @@ const Contact = () => {
     },
     validationSchema: Yup.object({
       name: Yup.string().required('Name is required'),
-      email: Yup.string().email('Invalid email').required('Email is required'),
       phone: Yup.string().required('Phone number is required'),
       service: Yup.string().required('Please select a service'),
       message: Yup.string().required('Message is required')
     }),
     onSubmit: (values) => {
-      const { name, email, service, message: query } = values;
-      const message = `Hello! I am ${encodeURIComponent(name)}%0A
-my email is : ${encodeURIComponent(email)}, I am interested in the service: ${encodeURIComponent(service)}, ${encodeURIComponent(query)}`;
-      const whatsappNumber = '09956942226';
+      const { name, service, message: query } = values;
+      const message = `Hello! I am ${encodeURIComponent(name)}.%0A` +
+        `I am interested in the service: ${encodeURIComponent(service)}.%0A` +
+        `${encodeURIComponent(query)}`;
+      const whatsappNumber = '919956942226';
       const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
       window.open(whatsappLink, '_blank');
     }
@@ -70,7 +69,7 @@ my email is : ${encodeURIComponent(email)}, I am interested in the service: ${en
             <div className="bg-white rounded-3xl shadow-xl p-6 sm:p-10">
               <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 sm:mb-8">Book a Consultation</h2>
               <form onSubmit={formik.handleSubmit} className="space-y-6">
-                {['name', 'email', 'phone'].map((field) => (
+                {['name', 'phone'].map((field) => (
                   <div key={field}>
                     <label htmlFor={field} className="block text-sm font-medium text-gray-700 capitalize">
                       {field}
@@ -79,7 +78,7 @@ my email is : ${encodeURIComponent(email)}, I am interested in the service: ${en
                       id={field}
                       type={field === 'email' ? 'email' : 'text'}
                       {...formik.getFieldProps(field)}
-                      className="mt-1 block w-full rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
+                      className="mt-1 p-4 block w-full rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
                     />
                     {formik.touched[field] && formik.errors[field] && (
                       <p className="text-sm text-red-600 mt-1">{formik.errors[field]}</p>
@@ -94,7 +93,7 @@ my email is : ${encodeURIComponent(email)}, I am interested in the service: ${en
                   <select
                     id="service"
                     {...formik.getFieldProps('service')}
-                    className="mt-1 block w-full rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
+                    className="mt-1 block p-4 w-full rounded-xl border border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 transition"
                   >
                     <option value="">Select a service</option>
                     {services.map((s, i) => (
@@ -158,19 +157,14 @@ my email is : ${encodeURIComponent(email)}, I am interested in the service: ${en
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Quick Connect</h3>
                 <div className="flex flex-col gap-4">
                   <a
-                    href="https://wa.me/09956942226"
+                    href="https://wa.me/919956942226"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-600 hover:bg-green-700 text-white py-2 rounded-xl text-center font-medium transition"
                   >
                     💬 Chat on WhatsApp
                   </a>
-                  <a
-                    href="mailto:svintageholistic@gmail.com"
-                    className="bg-gray-100 hover:bg-gray-200 text-gray-900 py-2 rounded-xl text-center font-medium transition"
-                  >
-                    ✉️ Email Us
-                  </a>
+
                 </div>
               </div>
             </div>
@@ -180,7 +174,7 @@ my email is : ${encodeURIComponent(email)}, I am interested in the service: ${en
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919886332684"
+        href="https://wa.me/919956942226"
         className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-green-500 hover:bg-green-600 text-white p-4 sm:p-5 rounded-full shadow-lg transition"
         target="_blank"
         rel="noopener noreferrer"

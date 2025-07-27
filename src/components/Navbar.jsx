@@ -29,7 +29,7 @@ function Navbar() {
       <Link to="/services" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>Services</Link>
       <Link to="/about" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>About</Link>
       <Link to="/contact" className="hover:text-pink-600 hover:scale-105 transition-colors duration-300" onClick={() => setMenuOpen((open) => !open)}>Contact</Link>
-      <Link to="/blogs" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>Blog</Link>
+      <Link to="/blogs" className="hover:text-pink-600 transition-colors hover:scale-105 duration-300" onClick={() => setMenuOpen((open) => !open)}>Why Us</Link>
     </>
   );
 

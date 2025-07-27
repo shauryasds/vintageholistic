@@ -75,7 +75,7 @@ const PastLifeRegression = () => {
             <div className="mt-10">
               <h2 className="text-2xl font-semibold mb-4 text-gray-900">About the Therapist</h2>
               <p className="text-gray-700">
-                Dr. Neelam Kewlani, the founder of Sai Sanskruti Holistic Centre, has conducted over 2,000 PLR sessions. With her deep expertise in healing fear, phobias, relationships, and emotional clarity, she provides a safe and transformative journey into your past lives.
+                Dr. Neelam Kewlani, the founder of Vintage Holistic Centre, has conducted over 2,000 PLR sessions. With her deep expertise in healing fear, phobias, relationships, and emotional clarity, she provides a safe and transformative journey into your past lives.
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ const PastLifeRegression = () => {
             </p>
             <div className="flex justify-center gap-4">
               <motion.a
-                href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20booking%20a%20Past%20Life%20Regression%20session"
+                href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20booking%20a%20Past%20Life%20Regression%20session"
                 className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -97,7 +97,7 @@ const PastLifeRegression = () => {
                 Book on WhatsApp
               </motion.a>
               <motion.a
-                href="tel:+919886332684"
+                href="tel:+919956942226"
                 className="bg-gray-100 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-200 transition duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -111,7 +111,7 @@ const PastLifeRegression = () => {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919886332684"
+        href="https://wa.me/919956942226"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50"
         target="_blank"
         rel="noopener noreferrer"

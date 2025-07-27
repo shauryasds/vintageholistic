@@ -35,9 +35,8 @@ const Astrology = () => {
                             <div className="bg-white rounded-xl p-8 shadow-md">
                                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Session Details</h3>
                                 <ul className="text-gray-700 space-y-2">
-                                    <li><strong>Duration:</strong> 45–60 minutes</li>
+                                    <li><strong>Duration:</strong> 45–60 minutes[Can Be Extended]</li>
                                     <li><strong>Mode:</strong> In-person or online</li>
-                                    <li><strong>Price:</strong> ₹1,500 / session</li>
                                     <li><strong>Language:</strong> Hindi & English</li>
                                 </ul>
                             </div>
@@ -57,19 +56,14 @@ const Astrology = () => {
                             </p>
                             <div className="flex justify-center gap-4">
                                 <a
-                                    href="https://wa.me/919886332684?text=Hi,%20I'm%20interested%20in%20an%20Astrology%20consultation"
+                                    href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20an%20Astrology%20consultation"
                                     className="bg-indigo-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-600 transition"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     Enquire on WhatsApp
                                 </a>
-                                <a
-                                    href="mailto:sanskrutiholistic@gmail.com"
-                                    className="bg-white text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
-                                >
-                                    Email Us
-                                </a>
+
                             </div>
                         </motion.div>
                     </div>
