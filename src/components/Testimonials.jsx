@@ -13,9 +13,17 @@ const testimonials = [
     image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753594479/ChatGPT_Image_Jul_27_2025_at_11_03_57_AM_cfmdob.png",
   },
   {
-    name: "Shivam Mehta",
+    name: "Manohar Lal",
     feedback: "I opted for the online astrology session, and it was incredibly insightful. The guidance was practical and spiritual.",
+
     image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753593839/Screenshot_2025-07-27_at_10.48.18_AM_z6uyor.png",
+  },
+  {
+    name: "Trapti verma",
+    feedback: "I Have experienced profound healing at Vintage Holistic Center i was suffering from severe anxiety,  headache and stress. but after taking the Accupressure treatment, I felt a deep sense of calm and clarity. The staff is incredibly knowledgeable and compassionate.",
+    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753769644/WhatsApp_Image_2025-07-28_at_11.07.14_AM_gy1hho.jpg",
+
+
   },
 ];
 
@@ -27,7 +35,7 @@ function Testimonials() {
         <h2 className="text-4xl text-pink-900 font-semibold">What Our Clients Say</h2>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-10 max-w-6xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-10 min-w-6xl mx-auto">
         {testimonials.map((testimonial, index) => (
           <motion.a
             href="https://g.co/kgs/QLq569Y"

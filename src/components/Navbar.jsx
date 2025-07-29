@@ -43,11 +43,11 @@ function Navbar() {
       className="fixed top-0 left-0 w-full bg-white text-black shadow-md z-50"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-26">
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={"https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753767065/ChatGPT_Image_Jul_29_2025_10_52_48_AM_afych0.png"} className="w-20 h-20 rounded-full" alt="Logo" />
+            <img src={"https://res.cloudinary.com/dn9yo8x89/image/upload/v1753769643/WhatsApp_Image_2025-07-27_at_7.02.45_PM_hmxoab.jpg"} className="w-32 h-24 rounded-full" alt="Logo" />
 
           </Link>
 
