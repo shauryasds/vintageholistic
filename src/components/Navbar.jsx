@@ -1,21 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react'; // or use any icon set
+import { motion } from 'framer-motion';
 
 function Navbar() {
-  const [visible, setIsVisible] = useState(false);
+  // const [visible, setIsVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsVisible(window.scrollY >= 185 || location.pathname !== '/');
-    };
-    setIsVisible(location.pathname !== '/');
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [location]);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setIsVisible(true);
+  //     // window.scrollY >= 185 || location.pathname !== '/'
+  //   };
+  //   setIsVisible(location.pathname !== '/');
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, [location]);
 
   const menuVariants = {
     hidden: { opacity: 0, y: -20 },
@@ -36,7 +38,7 @@ function Navbar() {
   return (
     <motion.nav
       initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: visible ? 1 : 0, y: visible ? 0 : -200 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
       className="fixed top-0 left-0 w-full bg-white text-black shadow-md z-50"
     >

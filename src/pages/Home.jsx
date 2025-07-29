@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import LearnMore from '../components/LearnMore'
 import Testimonials from '../components/Testimonials'
 import React, { lazy, Suspense } from 'react';
+import { motion } from 'framer-motion';
 
 const Glimse = lazy(() => import('../components/Glimse'));
 
@@ -13,7 +14,7 @@ import AnnouncementBar from '../components/AnnouncementBar'
 
 function Home() {
   return (
-    <div>
+    <div className=''>
       <Hero />
       <AnnouncementBar />
       {/* <LearnMore /> */}

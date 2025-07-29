@@ -5,14 +5,20 @@ function ContactForm() {
   const [selectedService, setSelectedService] = useState('');
 
   const services = [
-    'Ayurveda Consultation',
-    'Panchakarma',
-    'Yoga Classes',
-    'Reiki Healing',
-    'Crystal Healing',
-    'Card Reading',
-    'Past Life Regression',
-    'Feng Shui',
+    'Reflexology',
+    'Acupressure',
+    'Reiki 5D Healing',
+    'Vastu',
+    'Astrology',
+    'Tarot Cards reading',
+    // 'Ayurveda Consultation',
+    // 'Panchakarma',
+    // 'Yoga Classes',
+    // 'Reiki Healing',
+    // 'Crystal Healing',
+    // 'Card Reading',
+    // 'Past Life Regression',
+    // 'Feng Shui',
   ];
 
   const handleChange = (e) => {

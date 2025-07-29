@@ -1,19 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+
 
 const About = () => {
   const founderImage = "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/c_fill,ar_3:4,g_auto/v1753193310/IMG-20250716-WA0005_vlniwi.jpg";
-  const juniorAssistants = [
-    {
-      role: "Assistant Acupressure Therapist",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753194783/Screenshot_2025-07-22_at_8.02.28_PM_psvmph.png",
-    },
-    {
-      role: "Reiki Assistant",
-      image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193323/IMG_20250722_140941324_tbj89i.jpg",
-    },
-    // Add more assistants as needed
-  ];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-yellow-100 py-20 px-4 sm:px-8 lg:px-12">
@@ -83,6 +72,23 @@ const About = () => {
               </p>
             </div>
 
+            <div className="mb-16">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Senior Assistant</h3>
+              <div className="flex flex-col md:flex-row items-center gap-8 bg-white p-6 rounded-xl shadow-md">
+                <img
+                  src="https://res.cloudinary.com/dn9yo8x89/image/upload/v1753764806/WhatsApp_Image_2025-07-28_at_12.30.49_PM_ruydnp.jpg"
+                  alt="Senior Assistant"
+                  className="w-full md:w-1/3 h-72 object-cover rounded-lg"
+                />
+                <div className="text-center md:text-left">
+                  <h4 className="text-xl font-bold text-gray-800 mb-2">Ms. Tanisha Gaur </h4>
+                  <p className="text-gray-700 text-lg">Tarot Cards reader</p>
+                  <p className="text-gray-600 mt-2 text-base leading-relaxed">
+                    Intuitive and compassionate tarot card reader helping you gain clarity, guidance, and deeper self-understanding through the wisdom of the cards
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="mb-16">
               <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Senior Assistant</h3>
               <div className="flex flex-col md:flex-row items-center gap-8 bg-white p-6 rounded-xl shadow-md">
