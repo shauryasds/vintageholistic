@@ -1,4 +1,5 @@
 
+import { motion } from 'framer-motion';
 
 const About = () => {
   const founderImage = "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/c_fill,ar_3:4,g_auto/v1753193310/IMG-20250716-WA0005_vlniwi.jpg";
