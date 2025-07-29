@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BookAppointement from './BookAppointement';
-import { motion } from 'framer-motion';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -11,18 +10,20 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   const heroImages = [
-    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193323/IMG_20250722_140941324_tbj89i.jpg',
-    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753591832/Screenshot_2025-07-27_at_10.19.26_AM_iea9vg.png',
-    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753590108/WhatsApp_Image_2025-07-26_at_11.07.54_PM_tbxcf3.jpg',
-    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753590107/WhatsApp_Image_2025-07-23_at_6.12.52_PM_juiktg.jpg',
+    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753193323/IMG_20250722_140941324_tbj89i.jpg',
+    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753764805/WhatsApp_Image_2025-07-28_at_12.30.50_PM_f5yfdt.jpg',
+    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753765337/WhatsApp_Image_2025-07-28_at_12.30.49_PM_1_sshzpa.jpg',
+    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753591832/Screenshot_2025-07-27_at_10.19.26_AM_iea9vg.png',
+    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753590108/WhatsApp_Image_2025-07-26_at_11.07.54_PM_tbxcf3.jpg',
+    'https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753590107/WhatsApp_Image_2025-07-23_at_6.12.52_PM_juiktg.jpg',
 
   ];
 
   const navigation = ["Home", "Services", "About", "Contact"];
-  const [sliideNo, setSlideNo] = useState(2);
 
   const [isMediumUp, setIsMediumUp] = useState(() => window.innerWidth >= 568);
 
@@ -62,7 +63,10 @@ const Hero = () => {
               }}
             >
               {/* Overlay */}
+
+
               <div className="absolute inset-0 bg-black/30  z-10"></div>
+
 
 
 
@@ -78,7 +82,7 @@ const Hero = () => {
                       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                         <FaTwitter className="hover:text-pink-400 transition duration-300" />
                       </a>
-                      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                      <a href="https://instagram.com/bprashaad?igsh=emUxMGs2eHZ6OTR3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                         <FaInstagram className="hover:text-pink-400 transition duration-300" />
                       </a>
                       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

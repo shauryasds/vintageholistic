@@ -30,8 +30,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <TopBar />
+
         <Navbar />
+        <TopBar />
         <ScrollToTop />
 
         <Routes>

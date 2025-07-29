@@ -1,21 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react'; // or use any icon set
+import { motion } from 'framer-motion';
 
 function Navbar() {
-  const [visible, setIsVisible] = useState(false);
+  // const [visible, setIsVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsVisible(window.scrollY >= 185 || location.pathname !== '/');
-    };
-    setIsVisible(location.pathname !== '/');
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [location]);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setIsVisible(true);
+  //     // window.scrollY >= 185 || location.pathname !== '/'
+  //   };
+  //   setIsVisible(location.pathname !== '/');
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, [location]);
 
   const menuVariants = {
     hidden: { opacity: 0, y: -20 },
@@ -36,7 +38,7 @@ function Navbar() {
   return (
     <motion.nav
       initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: visible ? 1 : 0, y: visible ? 0 : -200 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
       className="fixed top-0 left-0 w-full bg-white text-black shadow-md z-50"
     >
@@ -45,7 +47,8 @@ function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <span className="text-2xl font-serif font-extrabold tracking-widest">Vintage</span>
+            <img src={"https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753767065/ChatGPT_Image_Jul_29_2025_10_52_48_AM_afych0.png"} className="w-20 h-20 rounded-full" alt="Logo" />
+
           </Link>
 
           {/* Desktop Navigation */}
@@ -56,8 +59,7 @@ function Navbar() {
           {/* Book Appointment */}
           <div className="hidden md:block">
             <a
-              href="https://calendly.com/shuklashauryadeep589/30min"
-              target="_blank"
+              href="https://wa.me/919956942226" target="_blank"
               rel="noopener noreferrer"
               className="bg-orange-600 text-white font-semibold px-6 py-2 rounded-lg tracking-wide hover:bg-gray-800 transition-colors duration-300"
             >
@@ -88,8 +90,7 @@ function Navbar() {
             <div className="flex flex-col space-y-4 font-serif text-lg font-thin tracking-wide">
               {navLinks}
               <a
-                href="https://calendly.com/shuklashauryadeep589/30min"
-                className="mt-4 inline-block bg-orange-600 text-white text-center font-semibold px-5 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-300"
+                href="https://wa.me/919956942226" className="mt-4 inline-block bg-orange-600 text-white text-center font-semibold px-5 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-300"
               >
                 Book Appointment
               </a>
@@ -97,7 +98,7 @@ function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.nav>
+    </motion.nav >
   );
 }
 

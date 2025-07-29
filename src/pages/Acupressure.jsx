@@ -55,6 +55,28 @@ const Acupressure = () => {
                             </motion.div>
                         </div>
 
+                        {/* Additional Services Section */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}
+                            className="mt-12 bg-white border border-green-200 rounded-xl p-8 shadow-md"
+                        >
+                            <h2 className="text-2xl font-bold text-center text-gray-900 mb-6">
+                                We Also Treat
+                            </h2>
+                            <ul className="grid sm:grid-cols-2 gap-4 text-gray-800 text-lg">
+                                <li><span className="text-green-500 font-bold">▹</span> <span className="font-semibold text-green-600">Neuro Reflexology </span></li>
+                                <li><span className="text-green-500">▹</span> Brain Alignment</li>
+                                <li><span className="text-green-500">▹</span> Spine Alignment</li>
+                                <li><span className="text-green-500">▹</span> Sciatica Problem</li>
+                                <li><span className="text-green-500">▹</span> Shoulder Alignment</li>
+                                <li><span className="text-green-500">▹</span> Liver Problems</li>
+                                <li><span className="text-green-500">▹</span> Gynecological Problems</li>
+                                <li><span className="text-green-500">▹</span> ...and many more</li>
+                            </ul>
+                        </motion.div>
+
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -78,7 +100,6 @@ const Acupressure = () => {
                                 >
                                     WhatsApp Us
                                 </motion.a>
-
                             </div>
                         </motion.div>
                     </div>

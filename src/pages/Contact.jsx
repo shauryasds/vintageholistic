@@ -31,14 +31,12 @@ const Contact = () => {
   });
 
   const services = [
-    'Ayurveda Consultation',
-    'Panchakarma',
-    'Yoga Classes',
-    'Reiki Healing',
-    'Crystal Healing',
-    'Card Reading',
-    'Past Life Regression',
-    'Feng Shui'
+    'Reflexology',
+    'Acupressure',
+    'Reiki 5D Healing',
+    'Vastu',
+    'Astrology',
+    'Tarot Cards reading',
   ];
 
   const locations = [
