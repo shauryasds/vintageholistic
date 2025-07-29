@@ -79,7 +79,7 @@ const Hero = () => {
                       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                         <FaTwitter className="hover:text-pink-400 transition duration-300" />
                       </a>
-                      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                      <a href="https://instagram.com/bprashaad?igsh=emUxMGs2eHZ6OTR3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                         <FaInstagram className="hover:text-pink-400 transition duration-300" />
                       </a>
                       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

@@ -18,16 +18,16 @@ const Footer = () => {
           <p className="mb-1 text-md mt-3">📞 919956942226</p>
           <div>
             <div className="flex text-black space-x-6  text-base">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <FaFacebookF className="hover:text-pink-400 transition duration-300" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <FaTwitter className="hover:text-pink-400 transition duration-300" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://instagram.com/bprashaad?igsh=emUxMGs2eHZ6OTR3" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram className="hover:text-pink-400 transition duration-300" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FaLinkedinIn className="hover:text-pink-400 transition duration-300" />
               </a>
             </div>

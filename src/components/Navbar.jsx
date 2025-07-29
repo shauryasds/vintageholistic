@@ -58,8 +58,7 @@ function Navbar() {
           {/* Book Appointment */}
           <div className="hidden md:block">
             <a
-              href="https://calendly.com/shuklashauryadeep589/30min"
-              target="_blank"
+              href="https://wa.me/919956942226" target="_blank"
               rel="noopener noreferrer"
               className="bg-orange-600 text-white font-semibold px-6 py-2 rounded-lg tracking-wide hover:bg-gray-800 transition-colors duration-300"
             >
@@ -90,8 +89,7 @@ function Navbar() {
             <div className="flex flex-col space-y-4 font-serif text-lg font-thin tracking-wide">
               {navLinks}
               <a
-                href="https://calendly.com/shuklashauryadeep589/30min"
-                className="mt-4 inline-block bg-orange-600 text-white text-center font-semibold px-5 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-300"
+                href="https://wa.me/919956942226" className="mt-4 inline-block bg-orange-600 text-white text-center font-semibold px-5 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-300"
               >
                 Book Appointment
               </a>
