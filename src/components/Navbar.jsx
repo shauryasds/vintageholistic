@@ -47,7 +47,8 @@ function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <span className="text-2xl font-serif font-extrabold tracking-widest">Vintage</span>
+            <img src={"https://res.cloudinary.com/dn9yo8x89/image/upload/v1753767065/ChatGPT_Image_Jul_29_2025_10_52_48_AM_afych0.png"} className="w-20 h-20 rounded-full" alt="Logo" />
+
           </Link>
 
           {/* Desktop Navigation */}
@@ -97,7 +98,7 @@ function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.nav>
+    </motion.nav >
   );
 }
 
