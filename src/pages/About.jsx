@@ -1,7 +1,7 @@
 
 
 const About = () => {
-  const founderImage = "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/c_fill,ar_3:4,g_auto/v1753193310/IMG-20250716-WA0005_vlniwi.jpg";
+  const founderImage = "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/c_fill,ar_3:4,g_auto/v1753193310/IMG-20250716-WA0005_vlniwi.jpg";
 
 
   return (
@@ -76,7 +76,7 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Senior Assistant</h3>
               <div className="flex flex-col md:flex-row items-center gap-8 bg-white p-6 rounded-xl shadow-md">
                 <img
-                  src="https://res.cloudinary.com/dn9yo8x89/image/upload/v1753764806/WhatsApp_Image_2025-07-28_at_12.30.49_PM_ruydnp.jpg"
+                  src="https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753764806/WhatsApp_Image_2025-07-28_at_12.30.49_PM_ruydnp.jpg"
                   alt="Senior Assistant"
                   className="w-full md:w-1/3 h-72 object-cover rounded-lg"
                 />
@@ -93,7 +93,7 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Senior Assistant</h3>
               <div className="flex flex-col md:flex-row items-center gap-8 bg-white p-6 rounded-xl shadow-md">
                 <img
-                  src="https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193346/IMG-20250716-WA0011_xphyz3.jpg"
+                  src="https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753193346/IMG-20250716-WA0011_xphyz3.jpg"
                   alt="Senior Assistant"
                   className="w-full md:w-1/3 h-72 object-cover rounded-lg"
                 />

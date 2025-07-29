@@ -33,7 +33,7 @@ function Glimse() {
                         <div className="h-[50vh] sm:h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753193280/IMG-20250722-WA0017_ifiaon.jpg')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753193280/IMG-20250722-WA0017_ifiaon.jpg')",
 
                                 backgroundSize: 'contain',
                                 backgroundPosition: 'center',
@@ -45,7 +45,7 @@ function Glimse() {
                         <div className="h-[50vh] sm:h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/c_crop,ar_16:9/v1753194783/Screenshot_2025-07-22_at_8.02.28_PM_psvmph.png')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/c_crop,ar_16:9/v1753194783/Screenshot_2025-07-22_at_8.02.28_PM_psvmph.png')",
                                 backgroundSize: 'contain',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
@@ -56,7 +56,7 @@ function Glimse() {
                         <div className="h-[50vh] sm:h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753590107/WhatsApp_Image_2025-07-23_at_6.12.53_PM_y12umr.jpg')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753590107/WhatsApp_Image_2025-07-23_at_6.12.53_PM_y12umr.jpg')",
                                 backgroundSize: 'contain',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
@@ -67,7 +67,7 @@ function Glimse() {
                         <div className="h-[50vh] sm:h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753590107/WhatsApp_Image_2025-07-23_at_6.12.52_PM_1_qjkrum.jpg')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753590107/WhatsApp_Image_2025-07-23_at_6.12.52_PM_1_qjkrum.jpg')",
                                 backgroundSize: 'contain',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
@@ -78,7 +78,7 @@ function Glimse() {
                         <div className="h-[50vh] sm:h-[90vh] bg-cover bg-center"
                             style={{
                                 backgroundImage:
-                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753590108/WhatsApp_Image_2025-07-25_at_11.21.14_AM_qcbsox.jpg')",
+                                    "url('https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753590108/WhatsApp_Image_2025-07-25_at_11.21.14_AM_qcbsox.jpg')",
                                 backgroundSize: 'contain',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',

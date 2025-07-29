@@ -47,7 +47,7 @@ function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={"https://res.cloudinary.com/dn9yo8x89/image/upload/v1753767065/ChatGPT_Image_Jul_29_2025_10_52_48_AM_afych0.png"} className="w-20 h-20 rounded-full" alt="Logo" />
+            <img src={"https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753767065/ChatGPT_Image_Jul_29_2025_10_52_48_AM_afych0.png"} className="w-20 h-20 rounded-full" alt="Logo" />
 
           </Link>
 

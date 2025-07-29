@@ -5,17 +5,17 @@ const testimonials = [
   {
     name: "Anjali Sharma",
     feedback: "I had an amazing healing experience with Vintage Holistic Center. The therapies were soothing and deeply transformative.",
-    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753593654/ChatGPT_Image_Jul_27_2025_at_10_50_21_AM_oq9qpn.png",
+    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753593654/ChatGPT_Image_Jul_27_2025_at_10_50_21_AM_oq9qpn.png",
   },
   {
     name: "Rajesh Kumar",
     feedback: "The personalized consultation truly helped with my chronic pain. Highly recommend Dr. Prashad’s holistic approach!",
-    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753594479/ChatGPT_Image_Jul_27_2025_at_11_03_57_AM_cfmdob.png",
+    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753594479/ChatGPT_Image_Jul_27_2025_at_11_03_57_AM_cfmdob.png",
   },
   {
     name: "Shivam Mehta",
     feedback: "I opted for the online astrology session, and it was incredibly insightful. The guidance was practical and spiritual.",
-    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/v1753593839/Screenshot_2025-07-27_at_10.48.18_AM_z6uyor.png",
+    image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753593839/Screenshot_2025-07-27_at_10.48.18_AM_z6uyor.png",
   },
 ];
 
