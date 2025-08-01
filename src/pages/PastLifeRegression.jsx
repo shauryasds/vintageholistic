@@ -75,7 +75,7 @@ const PastLifeRegression = () => {
             <div className="mt-10">
               <h2 className="text-2xl font-semibold mb-4 text-gray-900">About the Therapist</h2>
               <p className="text-gray-700">
-                Dr. Neelam Kewlani, the founder of Vintage Holistic Centre, has conducted over 2,000 PLR sessions. With her deep expertise in healing fear, phobias, relationships, and emotional clarity, she provides a safe and transformative journey into your past lives.
+                Dr. Prashad Kewlani, the founder of Vintage Holistic Centre, has conducted over 2,000 PLR sessions. With her deep expertise in healing fear, phobias, relationships, and emotional clarity, she provides a safe and transformative journey into your past lives.
               </p>
             </div>
           </div>

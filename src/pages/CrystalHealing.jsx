@@ -36,7 +36,7 @@ const CrystalHealing = () => {
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Vintage Holistic Center conducts comprehensive Crystal Healing courses in Lucknow. Learn the ancient art of healing with crystals and their powerful energetic properties.
+                Vintage Holistic Institute conducts comprehensive Crystal Healing courses in Lucknow. Learn the ancient art of healing with crystals and their powerful energetic properties.
               </p>
             </div>
 

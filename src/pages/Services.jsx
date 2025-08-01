@@ -18,30 +18,31 @@ const services = {
 
 
 
-    { title: "Usui Reiki Level 1", link: "/services/reki" },
-    { title: "Usui Reiki Level 2", link: "/services/reki" },
-    { title: "Usui Reiki Level 3A", link: "/services/reki" },
-    { title: "Usui Reiki Level 3B", link: "/services/reki" },
-    { title: "Usui Reiki Grand Mastership Level", link: "/services/reki" }, // typo corrected
-    { title: "Karuna Reiki", link: "/services/reki" },
-    // { title: "Crystal Healing", link: "/services/crystal-healing" },
-    { title: "Egyptian Card Reading", link: "/services/card-reading" },
-    { title: "Rider Waite Tarot Card Reading", link: "/services/card-reading" },
-    { title: "Angel Card Reading", link: "/services/card-reading" },
-    { title: "Basics of Ayurveda", link: "/services/ayurveda" },
+    // { title: "Usui Reiki Level 1", link: "/services/reki" },
+    // { title: "Usui Reiki Level 2", link: "/services/reki" },
+    // { title: "Usui Reiki Level 3A", link: "/services/reki" },
+    // { title: "Usui Reiki Level 3B", link: "/services/reki" },
+    // { title: "Usui Reiki Grand Mastership Level", link: "/services/reki" }, // typo corrected
+    // { title: "Karuna Reiki", link: "/services/reki" },
+    // // { title: "Crystal Healing", link: "/services/crystal-healing" },
+    // { title: "Egyptian Card Reading", link: "/services/card-reading" },
+    // { title: "Rider Waite Tarot Card Reading", link: "/services/card-reading" },
+    // { title: "Angel Card Reading", link: "/services/card-reading" },
+    // { title: "Basics of Ayurveda", link: "/services/ayurveda" },
     // { title: "Beauty Course in Ayurveda", link: "/services/ayurveda" },
     // { title: "Basic Course in FengShui", link: "/services/fengshui" },
 
 
   ],
   therapies: [
-    { title: "Ayurveda Consultation", link: "/services/ayurveda" },
-    { title: "Tarot, Egyptian and Angel Card Reading", link: "/services/card-reading" },
+    { title: "Tarot Card Reading", link: "/services/card-reading" },
     { title: "Reki Course", link: whatsappLink },
     { title: "Complete Vastu Course", link: whatsappLink },
-    { title: "Basic and Advance course in Meditation", link: whatsappLink },
-    { title: "Angel Therapy Course", link: whatsappLink },
-    { title: "Aura and Chakra Healing", link: whatsappLink },
+    { title: "Original Manual Acupressure ", link: whatsappLink },
+
+    // { title: "Basic and Advance course in Meditation", link: whatsappLink },
+    // { title: "Angel Therapy Course", link: whatsappLink },
+    // { title: "Aura and Chakra Healing", link: whatsappLink },
     // { title: "Aura Reading Session", link: whatsappLink },
     // { title: "Feng Shui Consultation", link: "/services/fengshui" },
     // { title: "Past Life Regression Session", link: "/services/past-life-regression" },
@@ -76,7 +77,7 @@ const ServicePage = () => {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-serif font-extrabold text-center text-gray-900 mb-16">
           <span className="text-emerald-600 text-6xl">🌿</span>
-          <span className="mx-4">Vintage Holistic Center</span>
+          <span className="mx-4">Vintage Holistic Institute</span>
           <span className="text-emerald-600 text-6xl">🌿</span>
         </h1>
 

@@ -19,7 +19,7 @@ const VastuConsultation = () => {
 
                         <div className="mb-12">
                             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                                At Vintage Holistic Center, we offer personalized Vastu consultations to harmonize your living and working spaces. Guided by ancient Indian architectural science, our approach enhances health, wealth, relationships, and spiritual well-being.
+                                At Vintage Holistic Institute, we offer personalized Vastu consultations to harmonize your living and working spaces. Guided by ancient Indian architectural science, our approach enhances health, wealth, relationships, and spiritual well-being.
                             </p>
                         </div>
 
@@ -37,7 +37,7 @@ const VastuConsultation = () => {
                                     <li><span className="text-blue-500 mr-2">▹</span>Remedial solutions using natural elements</li>
                                     <li><span className="text-blue-500 mr-2">▹</span>Customized guidance for health, wealth, career, and relationships</li>
                                     <li><span className="text-blue-500 mr-2">▹</span>Remote and On-site Consultation Options</li>
-                                    <li><span className="text-blue-500 mr-2">▹</span>Led by Dr. Neelam with 20+ years of expertise</li>
+                                    <li><span className="text-blue-500 mr-2">▹</span>Led by Dr. Prashad with 10+ years of expertise</li>
                                 </ul>
                             </motion.div>
 

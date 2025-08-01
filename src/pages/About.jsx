@@ -16,11 +16,11 @@ const About = () => {
         >
           <div className="px-8 py-12 md:px-14 md:py-16">
             <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-900 mb-6">
-              About <span className="text-yellow-600">Vintage Holistic Center</span>
+              About <span className="text-yellow-600">Vintage Holistic Institute</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-700 text-center mb-14 max-w-3xl mx-auto leading-relaxed">
-              Since its inception in Lucknow, Vintage Holistic Center has been a place of transformation through ancient and energy-based healing. Led by a vision to heal through natural sciences, we integrate therapies that nurture body, mind, and spirit.
+              Since its inception in Lucknow, Vintage Holistic Institute has been a place of transformation through ancient and energy-based healing. Led by a vision to heal through natural sciences, we integrate therapies that nurture body, mind, and spirit.
             </p>
 
             <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
@@ -35,7 +35,7 @@ const About = () => {
               <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Dr. B. Prashaad</h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Founder and Chief Healer at Vintage Holistic Center, Dr. B. Prashaad blends naturopathy, pharmacology, and multidimensional energy healing. With deep experience and compassion, he guides individuals through powerful internal transformation.
+                  Founder and Chief Healer at Vintage Holistic Institute, Dr. B. Prashaad blends naturopathy, pharmacology, and multidimensional energy healing. With deep experience and compassion, he guides individuals through powerful internal transformation.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
                   His work spans reflexology, reiki, 5D healing, detox, and inner alignment practices — designed to restore well-being from the inside out.

@@ -13,7 +13,7 @@ const Footer = () => {
 
         {/* Brand & Contact */}
         <div className=''>
-          <h2 className="text-4xl font-bold mb-2">Vintage Holistic Treatment & Training Center</h2>
+          <h2 className="text-4xl font-bold mb-2">Vintage Holistic Treatment & Training Institute</h2>
           <p className="mb-1 text-md my-1">395 Eldeco colony, near pioneer montessory school, Udyan-1, Sector -2, Bangla Bazar, Lucknow, Uttar Pradesh 226002</p>
           <p className="mb-1 text-md mt-3">📞 919956942226</p>
           <div>

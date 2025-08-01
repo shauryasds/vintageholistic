@@ -2,107 +2,165 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-const ReikiCourses = [
-  {
-    level: "Level 1",
-    duration: "Five hours",
-    fees: "5,000",
-    topics: [
-      "History of Reiki",
-      "Concept of Reiki",
-      "Principles of Reiki",
-      "What is attunement?",
-      "How to do 21-day cleansing process",
-      "Auras and Chakras",
-      "Seven Main Chakras",
-      "Whom to heal with Reiki",
-      "How to heal somebody",
-      "General diseases treated with Reiki",
-      "Benefits of Reiki",
-      "Attunement",
-      "Practical session (One hour)"
-    ]
-  },
-  {
-    level: "Level 2",
-    duration: "Five hours",
-    fees: "5,000",
-    topics: [
-      "Three symbols of Reiki 2nd degree",
-      "Distant Healing symbols",
-      "Emotional and mental healing symbols",
-      "The power symbol",
-      "Hands on Reiki treatment with symbols",
-      "Distant healing",
-      "Programming Reiki",
-      "Protective pyramid",
-      "Use of colour in healing"
-    ]
-  },
-  {
-    level: "Level 3A",
-    duration: "Four hours",
-    fees: "5,000",
-    topics: [
-      "The Usui master symbol",
-      "The Reiki grid",
-      "Psychic surgery",
-      "Reiki meditation",
-      "How to become a powerful healer",
-      "Five pillars of refining your energy body",
-      "Antahkarana symbol"
-    ]
-  },
-  {
-    level: "Level 3B (Mastership)",
-    duration: "Six hours (9am - 3pm)",
-    fees: "15,000",
-    topics: [
-      "Reiki lineage",
-      "Reiki Meditation",
-      "Clairvoyant comments on the Reiki attunement process",
-      "How to do Reiki attunement process for 1st degree",
-      "How to do Reiki attunement process for 2nd degree",
-      "Distant attunement",
-      "Healing Attunement",
-      "Practicing attunement",
-      "Attuning yourself",
-      "Benefits of reiki",
-      "How to strengthen the Aura",
-      "Characteristic related to each colour in the Aura",
-      "Emotions connected with Parts of the body",
-      "How to take Reiki classes for 1st and 2nd level",
-      "Attunement for Mastership"
-    ]
-  },
-  {
-    level: "Grand Mastership",
-    duration: "Five hours (10am - 3pm)",
-    fees: "10,000",
-    topics: [
-      "Revision of all 8 symbols",
-      "Revision of Attunement process of Level 1 & 2",
-      "How to do Reiki Attunement for Level 3A",
-      "How to do Reiki Attunement for Level 3B",
-      "How to do Reiki Attunement for Grand Mastership Level",
-      "Grand Mastership attunement",
-      "Practical session (One hour)"
-    ]
-  },
-  {
-    level: "Karuna Reiki",
-    duration: "Varies",
-    fees: "Varies",
-    topics: [
-      "Introduction to Karuna Reiki",
-      "History and origins of Karuna Reiki",
-      "Karuna Reiki symbols and their meanings",
-      "How to use Karuna Reiki symbols in healing",
-      "Advanced healing techniques",
-      "Practical session"
-    ]
-  }
-];
+const ReikiCourses =
+  [
+    {
+      level: "Level 1",
+      duration: "Five hours",
+      fees: "5,000",
+      topics: [
+        "History of Reiki",
+        "Concept of Reiki",
+        "Principles of Reiki",
+        "What is attunement?",
+        "How to do 21-day cleansing process",
+        "Auras and Chakras",
+        "Seven Main Chakras",
+        "Whom to heal with Reiki",
+        "How to heal somebody",
+        "General diseases treated with Reiki",
+        "Benefits of Reiki",
+        "Attunement",
+        "Practical session (One hour)"
+      ]
+    },
+    {
+      level: "5D Healing",
+      duration: "Three hours",
+      fees: "3,500",
+      topics: [
+        "Introduction to 5D Consciousness",
+        "Understanding Higher Vibrations",
+        "Energy Grid Activation",
+        "Removing Fear and Ego Blockages",
+        "Light Body Activation Techniques",
+        "Grounding & Integration Practices",
+        "Guided Meditation & Practical Energy Work"
+      ]
+    },
+    {
+      level: "Refi Body Healing",
+      duration: "Two and a half hours",
+      fees: "3,000",
+      topics: [
+        "Refi Body Healing – Overview & Benefits",
+        "Energy Mapping and Blockage Identification",
+        "Muscle & Organ Energy Reset",
+        "Releasing Physical & Emotional Trauma",
+        "Hands-on Healing Techniques",
+        "Personal Refi Healing Plan"
+      ]
+    },
+    {
+      level: "Chakra Release & Balancing",
+      duration: "Three hours",
+      fees: "2,500",
+      topics: [
+        "Understanding the Chakra System",
+        "Signs of Blocked Chakras",
+        "Balancing Techniques for Each Chakra",
+        "Sound & Color Therapy Basics",
+        "Crystals for Chakra Healing",
+        "Breathing and Movement Practices",
+        "Guided Energy Release Meditation"
+      ]
+    },
+    {
+      level: "Negative Energy Cleanse",
+      duration: "Two hours",
+      fees: "2,000",
+      topics: [
+        "What is Negative Energy?",
+        "Symptoms of Negative Influence",
+        "Aura Protection Techniques",
+        "Home & Space Cleansing Methods",
+        "Salt & Smoke Rituals",
+        "Mantras and Affirmations",
+        "Daily Protection Practices"
+      ]
+    }
+    ,
+
+    {
+      level: "Level 2",
+      duration: "Five hours",
+      fees: "5,000",
+      topics: [
+        "Three symbols of Reiki 2nd degree",
+        "Distant Healing symbols",
+        "Emotional and mental healing symbols",
+        "The power symbol",
+        "Hands on Reiki treatment with symbols",
+        "Distant healing",
+        "Programming Reiki",
+        "Protective pyramid",
+        "Use of colour in healing"
+      ]
+    },
+    {
+      level: "Level 3A",
+      duration: "Four hours",
+      fees: "5,000",
+      topics: [
+        "The Usui master symbol",
+        "The Reiki grid",
+        "Psychic surgery",
+        "Reiki meditation",
+        "How to become a powerful healer",
+        "Five pillars of refining your energy body",
+        "Antahkarana symbol"
+      ]
+    },
+    {
+      level: "Level 3B (Mastership)",
+      duration: "Six hours (9am - 3pm)",
+      fees: "15,000",
+      topics: [
+        "Reiki lineage",
+        "Reiki Meditation",
+        "Clairvoyant comments on the Reiki attunement process",
+        "How to do Reiki attunement process for 1st degree",
+        "How to do Reiki attunement process for 2nd degree",
+        "Distant attunement",
+        "Healing Attunement",
+        "Practicing attunement",
+        "Attuning yourself",
+        "Benefits of reiki",
+        "How to strengthen the Aura",
+        "Characteristic related to each colour in the Aura",
+        "Emotions connected with Parts of the body",
+        "How to take Reiki classes for 1st and 2nd level",
+        "Attunement for Mastership"
+      ]
+    },
+    {
+      level: "Grand Mastership",
+      duration: "Five hours (10am - 3pm)",
+      fees: "10,000",
+      topics: [
+        "Revision of all 8 symbols",
+        "Revision of Attunement process of Level 1 & 2",
+        "How to do Reiki Attunement for Level 3A",
+        "How to do Reiki Attunement for Level 3B",
+        "How to do Reiki Attunement for Grand Mastership Level",
+        "Grand Mastership attunement",
+        "Practical session (One hour)"
+      ]
+    },
+    {
+      level: "Karuna Reiki",
+      duration: "Varies",
+      fees: "Varies",
+      topics: [
+        "Introduction to Karuna Reiki",
+        "History and origins of Karuna Reiki",
+        "Karuna Reiki symbols and their meanings",
+        "How to use Karuna Reiki symbols in healing",
+        "Advanced healing techniques",
+        "Practical session"
+      ]
+    }
+  ];
 
 
 const Reiki = () => {
@@ -123,7 +181,7 @@ const Reiki = () => {
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We undertake courses in all levels of Reiki. The courses are conducted by Dr. Neelam, a trained Reiki Grand Master with over 18 years of experience in Lucknow. She has successfully trained thousands of students in various levels of Reiki.
+                We undertake courses in all levels of Reiki. The courses are conducted by Dr. Prashad, a trained Reiki Grand Master with over 10 years of experience in Lucknow. She has successfully trained thousands of students in various levels of Reiki.
               </p>
             </div>
 
