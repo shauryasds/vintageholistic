@@ -151,7 +151,7 @@ const Hero = () => {
 
                   </div>
                   <h1 className="text-white text-2xl sm:text-5xl font-playfair font-thin mb-6">
-                    Vintage Holistic Treatment & Training Center
+                    Vintage Holistic Treatment & Training Institute
                   </h1>
 
                   <motion.nav

@@ -16,13 +16,17 @@ const Astrology = () => {
                             Vedic Astrology Consultations <span className="text-indigo-500">🪐</span>
                         </h1>
                         <p className="text-lg text-gray-700 leading-relaxed mb-10 text-center">
-                            Unlock the secrets of your birth chart with our in-depth astrological consultations guided by Dr. Neelam. Understand your life's path, challenges, and opportunities through the lens of ancient Vedic wisdom.
+                            Unlock the secrets of your birth chart with our in-depth astrological consultations guided by Dr. Prashad. Understand your life's path, challenges, and opportunities through the lens of ancient Vedic wisdom.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8">
                             <div className="bg-indigo-50 rounded-xl p-8 shadow-md">
                                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">What We Offer</h3>
                                 <ul className="text-gray-700 space-y-2">
+                                    <li>▹ Nakshatra-Based Remedies (Customized Solutions Based on Your Birth Star)</li>
+                                    <li>▹ ATO Remedies (Astro-Therapeutic Oriented Remedies for Life Balance)</li>
+                                    <li>▹ Medical Astrology (Health Diagnosis & Prevention through Planetary Analysis)</li>
+
                                     <li>▹ Birth Chart Analysis (Janam Kundli)</li>
                                     <li>▹ Career and Education Guidance</li>
                                     <li>▹ Matchmaking (Kundli Milan)</li>

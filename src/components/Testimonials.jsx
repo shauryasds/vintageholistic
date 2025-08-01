@@ -4,7 +4,7 @@ import React from 'react';
 const testimonials = [
   {
     name: "Anjali Sharma",
-    feedback: "I had an amazing healing experience with Vintage Holistic Center. The therapies were soothing and deeply transformative.",
+    feedback: "I had an amazing healing experience with Vintage Holistic Institute. The therapies were soothing and deeply transformative.",
     image: "https://res.cloudinary.com/dn9yo8x89/image/upload/q_auto,f_auto/q_auto,f_auto/v1753593654/ChatGPT_Image_Jul_27_2025_at_10_50_21_AM_oq9qpn.png",
   },
   {
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     name: "Trapti verma",
-    feedback: "I Have experienced profound healing at Vintage Holistic Center i was suffering from severe anxiety,  headache and stress. but after taking the Accupressure treatment, I felt a deep sense of calm and clarity. The staff is incredibly knowledgeable and compassionate.",
+    feedback: "I Have experienced profound healing at Vintage Holistic Institute i was suffering from severe anxiety,  headache and stress. but after taking the Accupressure treatment, I felt a deep sense of calm and clarity. The staff is incredibly knowledgeable and compassionate.",
     image: "https://res.cloudinary.com/dn9yo8x89/image/upload/v1753769644/WhatsApp_Image_2025-07-28_at_11.07.14_AM_gy1hho.jpg",
 
 

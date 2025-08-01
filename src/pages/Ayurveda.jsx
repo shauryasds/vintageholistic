@@ -45,7 +45,7 @@ const Ayurveda = () => {
             </h1>
 
             <p className="text-lg text-gray-700 mb-10 text-center">
-              Learn the timeless science of Ayurveda under the guidance of Dr. Neelam Kewlani at Vintage Holistic Center. Explore foundational principles, herbal wisdom, massage therapies, and Panchakarma techniques.
+              Learn the timeless science of Ayurveda under the guidance of Dr. Prashad Kewlani at Vintage Holistic Institute. Explore foundational principles, herbal wisdom, massage therapies, and Panchakarma techniques.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8">

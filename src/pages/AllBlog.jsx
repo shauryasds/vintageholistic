@@ -34,9 +34,9 @@ const WhyUs = () => {
           </div>
 
           <div className="bg-pink-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
-            <h3 className="font-semibold text-pink-700 mb-2">📚 Government-Recognized Training</h3>
+            <h3 className="font-semibold text-pink-700 mb-2">📚 Impactfull Trainings</h3>
             <p>
-              We offer certified and diploma-based courses in Acupressure, Ayurveda, Reiki, Vastu, and more to empower future healers.
+              We offer courses in Acupressure, Ayurveda, Reiki, Vastu, and more to empower future healers.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const WhyUs = () => {
           <div className="bg-pink-100 rounded-xl p-6 shadow-sm hover:shadow-md transition">
             <h3 className="font-semibold text-pink-700 mb-2">🌍 Trusted by Thousands</h3>
             <p>
-              We’ve helped over 10,000+ clients and students across India transform their lives through ancient science and spiritual practices.
+              We’ve helped over 500+ clients and students across India transform their lives through ancient science and spiritual practices.
             </p>
           </div>
 

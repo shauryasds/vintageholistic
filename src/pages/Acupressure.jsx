@@ -18,7 +18,7 @@ const Acupressure = () => {
 
                         <div className="mb-12">
                             <p className="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                                Experience the healing power of Manual Acupressure at <span className="font-semibold text-blue-600">Vintage Holistic Center</span>.
+                                Experience the healing power of Manual Acupressure at <span className="font-semibold text-blue-600">Vintage Holistic Institute</span>.
                                 We are <span className="font-bold text-yellow-600">Lucknow's only provider</span> of this specialized treatment, with a reputation for excellence and care.
                             </p>
                         </div>
@@ -73,6 +73,7 @@ const Acupressure = () => {
                                 <li><span className="text-green-500">▹</span> Shoulder Alignment</li>
                                 <li><span className="text-green-500">▹</span> Liver Problems</li>
                                 <li><span className="text-green-500">▹</span> Gynecological Problems</li>
+                                <li><span className="text-green-500">▹</span> Tcm & Ayurvedic Magnet Treatment</li>
                                 <li><span className="text-green-500">▹</span> ...and many more</li>
                             </ul>
                         </motion.div>

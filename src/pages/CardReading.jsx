@@ -13,13 +13,13 @@ const CardReading = () => {
         >
           <div className="px-8 pt-12 pb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">
-              Egyptian Card Reading Course
+              Tarot Card Reading Course
               <span className="text-yellow-500">🔮</span>
             </h1>
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Vintage Holistic Center conducts specialized sessions and classes for Egyptian Cartouche Card Reading. Learn the ancient art of interpreting messages from the higher self using symbolic Egyptian archetypes.
+                Vintage Holistic Institute conducts specialized sessions and classes for Tarot Card Reading. Learn the ancient art of interpreting messages from the higher self using symbolic Tarot archetypes.
               </p>
             </div>
 
@@ -32,12 +32,22 @@ const CardReading = () => {
               >
                 <h3 className="text-2xl font-semibold text-gray-900 mb-6">Course Highlights</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li><span className="text-yellow-500 mr-2">▹</span>Understanding 25 Egyptian Cards and their meanings</li>
-                  <li><span className="text-yellow-500 mr-2">▹</span>Horoscope and Star spread interpretation</li>
-                  <li><span className="text-yellow-500 mr-2">▹</span>Hands-on practical training</li>
-                  <li><span className="text-yellow-500 mr-2">▹</span>Includes laminated Egyptian card deck & course material</li>
-                  <li><span className="text-yellow-500 mr-2">▹</span>Small group (max 3 students)</li>
-                  <li><span className="text-yellow-500 mr-2">▹</span>Conducted by Dr. Neelam, with over 15 years of experience</li>
+
+                  <li>▹ 🌟 Tarot Card Reading – Unlock the Wisdom Within</li>
+                  <li>▹ Discover clarity, direction, and peace with personalized tarot readings</li>
+                  <li>▹ Receive spiritual insights on love, career, relationships, and personal growth</li>
+                  <li>▹ Tarot is not about predicting fate—it’s about empowering your choices</li>
+                  <li>▹ Clarity in Confusion: Get clear answers to life’s toughest questions</li>
+                  <li>▹ Emotional Healing: Release past pain and understand inner blocks</li>
+                  <li>▹ Future Insights: Know what challenges or opportunities lie ahead</li>
+                  <li>▹ Empowered Decisions: Make confident, soul-aligned choices</li>
+                  <li>▹ Duration: 60 minutes per session</li>
+                  <li>▹ Mode: In-person or Phone Call</li>
+                  <li>▹ Areas Covered: Health, Relationships, Finances, Career, Education</li>
+                  <li>▹ Course Option Available: Includes Tarot deck, printed material, and live practice</li>
+                  <li>▹ Conducted by Ms. Tanisha Gaur </li>
+                  <li>▹ Small batch classes (max 3 students) for deep personal attention</li>
+
                 </ul>
               </motion.div>
 
@@ -83,7 +93,7 @@ const CardReading = () => {
               </p>
               <div className="flex justify-center gap-4">
                 <motion.a
-                  href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20the%20Egyptian%20Card%20Reading%20course"
+                  href="https://wa.me/919956942226?text=Hi,%20I'm%20interested%20in%20the%20Tarot%20Card%20Reading%20course"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors duration-300"

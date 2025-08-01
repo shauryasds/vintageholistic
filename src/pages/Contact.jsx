@@ -145,7 +145,7 @@ const Contact = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Vintage Holistic center"
+                    title="Vintage Holistic Institute"
                   />
                 </div>
               ))}
