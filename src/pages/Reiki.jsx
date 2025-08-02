@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ReikiCourses =
   [
     {
-      level: "Level 1",
+      level: "Reiki Level 1",
       duration: "Five hours",
       fees: "5,000",
       topics: [
@@ -39,7 +39,7 @@ const ReikiCourses =
       ]
     },
     {
-      level: "Refi Body Healing",
+      level: "Body Aura healing",
       duration: "Two and a half hours",
       fees: "3,000",
       topics: [
@@ -52,7 +52,7 @@ const ReikiCourses =
       ]
     },
     {
-      level: "Chakra Release & Balancing",
+      level: "Chakra cleaning and balancing",
       duration: "Three hours",
       fees: "2,500",
       topics: [
@@ -66,7 +66,7 @@ const ReikiCourses =
       ]
     },
     {
-      level: "Negative Energy Cleanse",
+      level: "Cleansing of negative vibration",
       duration: "Two hours",
       fees: "2,000",
       topics: [
@@ -82,7 +82,7 @@ const ReikiCourses =
     ,
 
     {
-      level: "Level 2",
+      level: "Reiki Level 2",
       duration: "Five hours",
       fees: "5,000",
       topics: [
@@ -98,7 +98,7 @@ const ReikiCourses =
       ]
     },
     {
-      level: "Level 3A",
+      level: "Reiki Level 3A",
       duration: "Four hours",
       fees: "5,000",
       topics: [
@@ -112,7 +112,7 @@ const ReikiCourses =
       ]
     },
     {
-      level: "Level 3B (Mastership)",
+      level: "Reiki Level 3B (Mastership)",
       duration: "Six hours (9am - 3pm)",
       fees: "15,000",
       topics: [
@@ -134,7 +134,7 @@ const ReikiCourses =
       ]
     },
     {
-      level: "Grand Mastership",
+      level: "Reiki Grand Mastership",
       duration: "Five hours (10am - 3pm)",
       fees: "10,000",
       topics: [
@@ -195,7 +195,7 @@ const Reiki = () => {
                   className="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300"
                 >
                   <div className="flex items-center justify-between mb-6">
-                    <h3 className="text-2xl font-semibold text-gray-900">Reiki {course.level}</h3>
+                    <h3 className="text-2xl font-semibold text-gray-900"> {course.level}</h3>
                     <span className="text-emerald-600 text-2xl">✨</span>
                   </div>
 

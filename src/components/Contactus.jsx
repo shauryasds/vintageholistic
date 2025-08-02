@@ -59,7 +59,7 @@ ${encodeURIComponent(query)}`;
       <div className="flex flex-col bg-white shadow-md rounded-xl w-full max-w-5xl overflow-hidden">
         <div className="bg-white p-8 flex flex-col justify-center items-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-2">
-            Vintage Holistic Treatment & Training Center
+            Vintage Holistic Treatment & Training Institute
           </h2>
           <p className="text-orange-700">
             Let’s begin your healing journey. Reach out to us today.
