@@ -13,7 +13,7 @@ const AnnouncementBar = () => {
                     ease: 'linear'
                 }}
             >
-                👉 Manual Acupressure Therapy • Spine Alignment • Sciatica Shoulder Alignment • Problem Liver Problems • Gynecological Problems • 5D Reiki Healing • Vedic Magnet Therapy • Natural Detox Programs • Ayurvedic Chakra Alignment • Visit us at Vintage Holistic Treatment & Training Center
+                👉 Manual Acupressure Therapy • Spine Alignment • Sciatica Shoulder Alignment • Gastroenterological problems • Liver Problems • Gynecological Problems • 5D Reiki Healing • Vedic Magnet Therapy • Natural Detox Programs • Ayurvedic Chakra Alignment • Visit us at Vintage Holistic Treatment & Training Center
                 – Lucknow 🔱
 
 

@@ -43,12 +43,12 @@ const ReikiCourses =
       duration: "Two and a half hours",
       fees: "3,000",
       topics: [
-        "Refi Body Healing – Overview & Benefits",
+        "Reiki Body Healing – Overview & Benefits",
         "Energy Mapping and Blockage Identification",
         "Muscle & Organ Energy Reset",
         "Releasing Physical & Emotional Trauma",
         "Hands-on Healing Techniques",
-        "Personal Refi Healing Plan"
+        "Personal Reiki Healing Plan"
       ]
     },
     {
@@ -181,7 +181,7 @@ const Reiki = () => {
 
             <div className="mb-12">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                We undertake courses in all levels of Reiki. The courses are conducted by Dr. Prashad, a trained Reiki Grand Master with over 10 years of experience in Lucknow. She has successfully trained thousands of students in various levels of Reiki.
+                We undertake courses in all levels of Reiki. The courses are conducted by Dr. Prashad, a trained Reiki Grand Master with over 10 years of experience in Lucknow. He has successfully trained thousands of students in various levels of Reiki.
               </p>
             </div>
 
