@@ -77,9 +77,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-xs text-orange-800 mt-10 border-t border-orange-200 pt-4">
-        © {new Date().getFullYear()} Developed by- shaurya deep shukla
-      </div>
+    <div className="text-center text-xs text-orange-800 mt-10 border-t border-orange-200 pt-4">
+  © {new Date().getFullYear()} Launched by <a href="https://nimankit.in" className="underline hover:text-orange-600">NimankIT.in</a> & Developed by Shaurya Deep Shukla
+</div>
+
 
     </motion.footer>
   );
